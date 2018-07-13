@@ -47,17 +47,26 @@ if (!doNotTrack) {
   <div id="main_block">
     <main id="main">
 <h1 class="pagetitle">gg revert</h1>
-<p class="command_usage">gg revert [-r REV] [--all] [FILE [...]]</p>
+<p class="command_usage">gg revert [-r REV] [--all] [--no-backup] [FILE [...]]</p>
 
 <p>restore files to their checkout state</p>
 
 <p></p>
+
+<p>With no revision specified, revert the specified files or directories
+to the contents they had at HEAD.</p>
+
+<p>Modified files are saved with a .orig suffix before reverting. To
+disable these backups, use <code>--no-backup</code>.</p>
 
 <h2 id="options">Options</h2>
 
 <dl class="flag_list">
     <dt>-all</dt>
     <dd>revert all changes when no arguments given</dd>
+    <dt>-C</dt>
+    <dt>-no-backup</dt>
+    <dd>do not save backup copies of files</dd>
     <dt>-r rev</dt>
     <dd>revert to specified revision</dd>
 </dl>
