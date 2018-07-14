@@ -142,4 +142,40 @@
     <lastmod>2018-07-07T15:35:48-07:00</lastmod>
   </url>
   
+  <url>
+    <loc>https://gg-scm.io/pkg/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/cmd/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/cmd/gg/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/internal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/internal/flag/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/internal/gitobj/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/internal/gittool/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/internal/singleclose/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/internal/terminal/</loc>
+  </url>
+  
 </urlset>

@@ -306,5 +306,59 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>gg-scm.io/pkg/cmd/gg</title>
+      <link>https://gg-scm.io/pkg/cmd/gg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/cmd/gg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/pkg/internal/flag</title>
+      <link>https://gg-scm.io/pkg/internal/flag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/internal/flag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/pkg/internal/gitobj</title>
+      <link>https://gg-scm.io/pkg/internal/gitobj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/internal/gitobj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/pkg/internal/gittool</title>
+      <link>https://gg-scm.io/pkg/internal/gittool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/internal/gittool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/pkg/internal/singleclose</title>
+      <link>https://gg-scm.io/pkg/internal/singleclose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/internal/singleclose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/pkg/internal/terminal</title>
+      <link>https://gg-scm.io/pkg/internal/terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/internal/terminal/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
