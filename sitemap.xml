@@ -3,142 +3,142 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zombiezen.github.io/gg/workflow/local/</loc>
+    <loc>https://gg-scm.io/workflow/local/</loc>
     <lastmod>2018-07-07T13:49:05-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/workflow/fork/</loc>
+    <loc>https://gg-scm.io/workflow/fork/</loc>
     <lastmod>2018-06-21T13:29:21-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/workflow/shared/</loc>
+    <loc>https://gg-scm.io/workflow/shared/</loc>
     <lastmod>2018-07-07T08:21:47-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/workflow/gerrit/</loc>
+    <loc>https://gg-scm.io/workflow/gerrit/</loc>
     <lastmod>2018-06-13T08:48:58-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/cat/</loc>
+    <loc>https://gg-scm.io/cmd/cat/</loc>
     <lastmod>2018-07-10T22:01:45-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/add/</loc>
+    <loc>https://gg-scm.io/cmd/add/</loc>
     <lastmod>2018-07-10T21:03:14-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/branch/</loc>
+    <loc>https://gg-scm.io/cmd/branch/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/clone/</loc>
+    <loc>https://gg-scm.io/cmd/clone/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/commit/</loc>
+    <loc>https://gg-scm.io/cmd/commit/</loc>
     <lastmod>2018-07-07T13:44:58-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/diff/</loc>
+    <loc>https://gg-scm.io/cmd/diff/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/evolve/</loc>
+    <loc>https://gg-scm.io/cmd/evolve/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/gerrithook/</loc>
+    <loc>https://gg-scm.io/cmd/gerrithook/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/histedit/</loc>
+    <loc>https://gg-scm.io/cmd/histedit/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/init/</loc>
+    <loc>https://gg-scm.io/cmd/init/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/log/</loc>
+    <loc>https://gg-scm.io/cmd/log/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/mail/</loc>
+    <loc>https://gg-scm.io/cmd/mail/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/merge/</loc>
+    <loc>https://gg-scm.io/cmd/merge/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/pull/</loc>
+    <loc>https://gg-scm.io/cmd/pull/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/push/</loc>
+    <loc>https://gg-scm.io/cmd/push/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/rebase/</loc>
+    <loc>https://gg-scm.io/cmd/rebase/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/remove/</loc>
+    <loc>https://gg-scm.io/cmd/remove/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/revert/</loc>
+    <loc>https://gg-scm.io/cmd/revert/</loc>
     <lastmod>2018-07-13T08:07:56-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/status/</loc>
+    <loc>https://gg-scm.io/cmd/status/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/update/</loc>
+    <loc>https://gg-scm.io/cmd/update/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/upstream/</loc>
+    <loc>https://gg-scm.io/cmd/upstream/</loc>
     <lastmod>2018-07-06T22:36:13-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/cmd/</loc>
+    <loc>https://gg-scm.io/cmd/</loc>
     <lastmod>2018-07-07T15:39:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/</loc>
+    <loc>https://gg-scm.io/</loc>
     <lastmod>2018-07-07T15:35:48-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zombiezen.github.io/gg/workflow/</loc>
+    <loc>https://gg-scm.io/workflow/</loc>
     <lastmod>2018-07-07T15:35:48-07:00</lastmod>
   </url>
   

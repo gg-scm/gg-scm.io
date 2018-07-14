@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workflows on gg</title>
-    <link>https://zombiezen.github.io/gg/workflow/</link>
+    <link>https://gg-scm.io/workflow/</link>
     <description>Recent content in Workflows on gg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Jun 2018 08:48:58 -0700</lastBuildDate>
     
-	<atom:link href="https://zombiezen.github.io/gg/workflow/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gg-scm.io/workflow/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Working Locally</title>
-      <link>https://zombiezen.github.io/gg/workflow/local/</link>
+      <link>https://gg-scm.io/workflow/local/</link>
       <pubDate>Sat, 07 Jul 2018 13:49:05 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/workflow/local/</guid>
+      <guid>https://gg-scm.io/workflow/local/</guid>
       <description>&lt;p&gt;Whether you are working by yourself or with others, the workflow for making
 changes on your local machine stays the same. This guide is primarily aimed at
 those who are new to version control, but is also useful for seasoned version
@@ -27,10 +27,10 @@ control users trying to see how gg stacks up to their current tool.&lt;/p&gt;
     
     <item>
       <title>Fork and Pull</title>
-      <link>https://zombiezen.github.io/gg/workflow/fork/</link>
+      <link>https://gg-scm.io/workflow/fork/</link>
       <pubDate>Thu, 21 Jun 2018 13:29:21 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/workflow/fork/</guid>
+      <guid>https://gg-scm.io/workflow/fork/</guid>
       <description>&lt;p&gt;The fork and pull model &lt;a href=&#34;https://guides.github.com/introduction/flow/&#34;&gt;popularized by GitHub&lt;/a&gt; is the most common way
 to use gg. When using this model, the project has a primary repository that
 only the maintainers of the project have write access to.  Contributors make
@@ -43,10 +43,10 @@ merge in the changes.&lt;/p&gt;
     
     <item>
       <title>Shared Repository</title>
-      <link>https://zombiezen.github.io/gg/workflow/shared/</link>
+      <link>https://gg-scm.io/workflow/shared/</link>
       <pubDate>Sat, 07 Jul 2018 08:21:47 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/workflow/shared/</guid>
+      <guid>https://gg-scm.io/workflow/shared/</guid>
       <description>&lt;p&gt;In the &lt;a href=&#34;https://help.github.com/articles/about-collaborative-development-models/&#34;&gt;shared repository model&lt;/a&gt;, the source of truth is a single
 shared repository. This pattern is popular with individuals and smaller teams.
 Each developer clones to a repository on their own machine and makes their
@@ -60,10 +60,10 @@ default branch (usually &lt;code&gt;master&lt;/code&gt;).&lt;/p&gt;
     
     <item>
       <title>Gerrit</title>
-      <link>https://zombiezen.github.io/gg/workflow/gerrit/</link>
+      <link>https://gg-scm.io/workflow/gerrit/</link>
       <pubDate>Wed, 13 Jun 2018 08:48:58 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/workflow/gerrit/</guid>
+      <guid>https://gg-scm.io/workflow/gerrit/</guid>
       <description>&lt;p&gt;Some popular open source projects use &lt;a href=&#34;https://www.gerritcodereview.com/&#34;&gt;Gerrit&lt;/a&gt;, a code review tool, to
 manage code contributions. Examples include &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;, &lt;a href=&#34;https://source.android.com/&#34;&gt;Android&lt;/a&gt;, and
 &lt;a href=&#34;https://www.chromium.org/&#34;&gt;Chromium&lt;/a&gt;. Gerrit has a somewhat unique model for receiving changes that

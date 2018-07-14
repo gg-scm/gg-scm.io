@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Working Locally - gg</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Patua+One" rel="stylesheet">
-  <link rel="icon" type="image/png" href="/gg/favicon.png" sizes="16x16">
-  <link rel="icon" type="image/png" href="/gg/favicon128.png" sizes="128x128">
-  <link rel="icon" type="image/png" href="/gg/favicon512.png" sizes="512x512">
-  <link rel="stylesheet" type="text/css" href="/gg/style.css">
+  <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/favicon128.png" sizes="128x128">
+  <link rel="icon" type="image/png" href="/favicon512.png" sizes="512x512">
+  <link rel="stylesheet" type="text/css" href="/style.css">
   
 <script>
 var doNotTrack = false;
@@ -29,13 +29,13 @@ if (!doNotTrack) {
     <nav id="main_nav">
       <ul id="main_nav_list">
         <li class="main_nav_item">
-          <a class="main_nav_link" href="/gg/">Home</a>
+          <a class="main_nav_link" href="/">Home</a>
         </li>
         <li class="main_nav_item">
-          <a class="main_nav_link" href="/gg/workflow/">Workflows</a>
+          <a class="main_nav_link" href="/workflow/">Workflows</a>
         </li>
         <li class="main_nav_item">
-          <a class="main_nav_link" href="/gg/cmd/">Commands</a>
+          <a class="main_nav_link" href="/cmd/">Commands</a>
         </li>
         <li class="main_nav_item">
           <a class="main_nav_link" href="https://github.com/zombiezen/gg">GitHub</a>
@@ -56,7 +56,7 @@ control users trying to see how gg stacks up to their current tool.</p>
 
 <h2 id="creating-a-repository">Creating a Repository</h2>
 
-<p>To create an empty repository, you use <a href="/gg/cmd/init/"><code>gg init</code></a>.</p>
+<p>To create an empty repository, you use <a href="/cmd/init/"><code>gg init</code></a>.</p>
 
 <pre><code class="language-shell">gg init foo
 cd foo
@@ -71,13 +71,13 @@ cd foo
 <pre><code class="language-shell">nano my-thoughts.txt
 </code></pre>
 
-<p>gg will not track <code>my-thoughts.txt</code> until you explicitly tell it to, using <a href="/gg/cmd/add/"><code>gg
+<p>gg will not track <code>my-thoughts.txt</code> until you explicitly tell it to, using <a href="/cmd/add/"><code>gg
 add</code></a>:</p>
 
 <pre><code class="language-shell">gg add my-thoughts.txt
 </code></pre>
 
-<p>You can then save your work to the repository using <a href="/gg/cmd/commit/"><code>gg commit</code></a>. This will
+<p>You can then save your work to the repository using <a href="/cmd/commit/"><code>gg commit</code></a>. This will
 create a new <a href="https://git-scm.com/docs/gitglossary#def_commit">Git commit</a>.</p>
 
 <pre><code class="language-shell">gg commit -m &quot;Started thinking&quot;
@@ -91,7 +91,7 @@ important, especially when collaborating with others.</p>
 <h2 id="modifying-files">Modifying Files</h2>
 
 <p>Let&rsquo;s say you add more to <code>my-thoughts.txt</code>. You can get a short summary of the
-files that have changed by using <a href="/gg/cmd/status/"><code>gg status</code></a>:</p>
+files that have changed by using <a href="/cmd/status/"><code>gg status</code></a>:</p>
 
 <pre><code class="language-shell">gg status
 </code></pre>
@@ -101,7 +101,7 @@ files that have changed by using <a href="/gg/cmd/status/"><code>gg status</code
 <pre><code>M my-thoughts.txt
 </code></pre>
 
-<p>If you want a more detailed view of your changes, you can use <a href="/gg/cmd/diff/"><code>gg diff</code></a> (short for differences).</p>
+<p>If you want a more detailed view of your changes, you can use <a href="/cmd/diff/"><code>gg diff</code></a> (short for differences).</p>
 
 <pre><code class="language-shell">gg diff
 </code></pre>
@@ -130,7 +130,7 @@ advanced partial commits, use <code>git add</code> and <code>git commit</code> d
 <h2 id="removing-files">Removing Files</h2>
 
 <p>Sometimes, you will want to remove a file that has been tracked by version
-control. To do this, you run <a href="/gg/cmd/remove/"><code>gg rm</code></a> followed by <code>gg commit</code>.</p>
+control. To do this, you run <a href="/cmd/remove/"><code>gg rm</code></a> followed by <code>gg commit</code>.</p>
 
 <pre><code class="language-shell">gg rm my-thoughts.txt
 gg commit -m &quot;Kept my thoughts to myself&quot;
@@ -145,7 +145,7 @@ gg to go back in time.</p>
 revisions of files. gg includes several commands to access the repository&rsquo;s
 data.</p>
 
-<p>The first command is <a href="/gg/cmd/log/"><code>gg log</code></a>.</p>
+<p>The first command is <a href="/cmd/log/"><code>gg log</code></a>.</p>
 
 <pre><code class="language-shell">gg log
 </code></pre>
@@ -167,7 +167,7 @@ flag to <code>gg diff</code> with a hash you found from the log.</p>
 </code></pre>
 
 <p>If you want to check out what the repository looked like at a particular commit,
-you can use the <a href="/gg/cmd/update/"><code>gg update</code></a>, also known as <code>checkout</code>.</p>
+you can use the <a href="/cmd/update/"><code>gg update</code></a>, also known as <code>checkout</code>.</p>
 
 <pre><code class="language-shell">gg checkout -r a199be2
 </code></pre>
@@ -196,8 +196,8 @@ control lets you keep track of how your files have changed over time, and lets
 you bring back files you may have accidentally deleted. However, version control
 is an important tool for being able to share these changes with others. Once
 you&rsquo;ve gotten used to the commands in this guide, take a look at the other
-<a href="/gg/workflow/">workflows</a> to see how to share your work with others. You may also want to
-look at the <a href="/gg/cmd/">command reference</a>.</p>
+<a href="/workflow/">workflows</a> to see how to share your work with others. You may also want to
+look at the <a href="/cmd/">command reference</a>.</p>
 </div>
   </div>
   <footer id="pagefooter">

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on gg</title>
-    <link>https://zombiezen.github.io/gg/</link>
+    <link>https://gg-scm.io/</link>
     <description>Recent content in Home on gg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 13 Jun 2018 08:48:58 -0700</lastBuildDate>
     
-	<atom:link href="https://zombiezen.github.io/gg/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gg-scm.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Working Locally</title>
-      <link>https://zombiezen.github.io/gg/workflow/local/</link>
+      <link>https://gg-scm.io/workflow/local/</link>
       <pubDate>Sat, 07 Jul 2018 13:49:05 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/workflow/local/</guid>
+      <guid>https://gg-scm.io/workflow/local/</guid>
       <description>&lt;p&gt;Whether you are working by yourself or with others, the workflow for making
 changes on your local machine stays the same. This guide is primarily aimed at
 those who are new to version control, but is also useful for seasoned version
@@ -27,10 +27,10 @@ control users trying to see how gg stacks up to their current tool.&lt;/p&gt;
     
     <item>
       <title>Fork and Pull</title>
-      <link>https://zombiezen.github.io/gg/workflow/fork/</link>
+      <link>https://gg-scm.io/workflow/fork/</link>
       <pubDate>Thu, 21 Jun 2018 13:29:21 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/workflow/fork/</guid>
+      <guid>https://gg-scm.io/workflow/fork/</guid>
       <description>&lt;p&gt;The fork and pull model &lt;a href=&#34;https://guides.github.com/introduction/flow/&#34;&gt;popularized by GitHub&lt;/a&gt; is the most common way
 to use gg. When using this model, the project has a primary repository that
 only the maintainers of the project have write access to.  Contributors make
@@ -43,10 +43,10 @@ merge in the changes.&lt;/p&gt;
     
     <item>
       <title>Shared Repository</title>
-      <link>https://zombiezen.github.io/gg/workflow/shared/</link>
+      <link>https://gg-scm.io/workflow/shared/</link>
       <pubDate>Sat, 07 Jul 2018 08:21:47 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/workflow/shared/</guid>
+      <guid>https://gg-scm.io/workflow/shared/</guid>
       <description>&lt;p&gt;In the &lt;a href=&#34;https://help.github.com/articles/about-collaborative-development-models/&#34;&gt;shared repository model&lt;/a&gt;, the source of truth is a single
 shared repository. This pattern is popular with individuals and smaller teams.
 Each developer clones to a repository on their own machine and makes their
@@ -60,10 +60,10 @@ default branch (usually &lt;code&gt;master&lt;/code&gt;).&lt;/p&gt;
     
     <item>
       <title>Gerrit</title>
-      <link>https://zombiezen.github.io/gg/workflow/gerrit/</link>
+      <link>https://gg-scm.io/workflow/gerrit/</link>
       <pubDate>Wed, 13 Jun 2018 08:48:58 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/workflow/gerrit/</guid>
+      <guid>https://gg-scm.io/workflow/gerrit/</guid>
       <description>&lt;p&gt;Some popular open source projects use &lt;a href=&#34;https://www.gerritcodereview.com/&#34;&gt;Gerrit&lt;/a&gt;, a code review tool, to
 manage code contributions. Examples include &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt;, &lt;a href=&#34;https://source.android.com/&#34;&gt;Android&lt;/a&gt;, and
 &lt;a href=&#34;https://www.chromium.org/&#34;&gt;Chromium&lt;/a&gt;. Gerrit has a somewhat unique model for receiving changes that
@@ -77,10 +77,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg cat</title>
-      <link>https://zombiezen.github.io/gg/cmd/cat/</link>
+      <link>https://gg-scm.io/cmd/cat/</link>
       <pubDate>Tue, 10 Jul 2018 22:01:45 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/cat/</guid>
+      <guid>https://gg-scm.io/cmd/cat/</guid>
       <description>&lt;p&gt;output the current or given revision of files&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -88,10 +88,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg add</title>
-      <link>https://zombiezen.github.io/gg/cmd/add/</link>
+      <link>https://gg-scm.io/cmd/add/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/add/</guid>
+      <guid>https://gg-scm.io/cmd/add/</guid>
       <description>&lt;p&gt;add the specified files on the next commit&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -99,10 +99,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg branch</title>
-      <link>https://zombiezen.github.io/gg/cmd/branch/</link>
+      <link>https://gg-scm.io/cmd/branch/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/branch/</guid>
+      <guid>https://gg-scm.io/cmd/branch/</guid>
       <description>&lt;p&gt;list or manage branches&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -110,10 +110,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg clone</title>
-      <link>https://zombiezen.github.io/gg/cmd/clone/</link>
+      <link>https://gg-scm.io/cmd/clone/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/clone/</guid>
+      <guid>https://gg-scm.io/cmd/clone/</guid>
       <description>&lt;p&gt;make a copy of an existing repository&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -121,10 +121,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg commit</title>
-      <link>https://zombiezen.github.io/gg/cmd/commit/</link>
+      <link>https://gg-scm.io/cmd/commit/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/commit/</guid>
+      <guid>https://gg-scm.io/cmd/commit/</guid>
       <description>&lt;p&gt;commit the specified files or all outstanding changes&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -132,10 +132,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg diff</title>
-      <link>https://zombiezen.github.io/gg/cmd/diff/</link>
+      <link>https://gg-scm.io/cmd/diff/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/diff/</guid>
+      <guid>https://gg-scm.io/cmd/diff/</guid>
       <description>&lt;p&gt;diff repository (or selected files)&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -143,10 +143,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg evolve</title>
-      <link>https://zombiezen.github.io/gg/cmd/evolve/</link>
+      <link>https://gg-scm.io/cmd/evolve/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/evolve/</guid>
+      <guid>https://gg-scm.io/cmd/evolve/</guid>
       <description>&lt;p&gt;sync with Gerrit changes in upstream&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -154,10 +154,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg gerrithook</title>
-      <link>https://zombiezen.github.io/gg/cmd/gerrithook/</link>
+      <link>https://gg-scm.io/cmd/gerrithook/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/gerrithook/</guid>
+      <guid>https://gg-scm.io/cmd/gerrithook/</guid>
       <description>&lt;p&gt;install or uninstall Gerrit change ID hook&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -165,10 +165,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg histedit</title>
-      <link>https://zombiezen.github.io/gg/cmd/histedit/</link>
+      <link>https://gg-scm.io/cmd/histedit/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/histedit/</guid>
+      <guid>https://gg-scm.io/cmd/histedit/</guid>
       <description>&lt;p&gt;interactively edit revision history&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -176,10 +176,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg init</title>
-      <link>https://zombiezen.github.io/gg/cmd/init/</link>
+      <link>https://gg-scm.io/cmd/init/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/init/</guid>
+      <guid>https://gg-scm.io/cmd/init/</guid>
       <description>&lt;p&gt;create a new repository in the given directory&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -187,10 +187,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg log</title>
-      <link>https://zombiezen.github.io/gg/cmd/log/</link>
+      <link>https://gg-scm.io/cmd/log/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/log/</guid>
+      <guid>https://gg-scm.io/cmd/log/</guid>
       <description>&lt;p&gt;show revision history of entire repository or files&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -198,10 +198,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg mail</title>
-      <link>https://zombiezen.github.io/gg/cmd/mail/</link>
+      <link>https://gg-scm.io/cmd/mail/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/mail/</guid>
+      <guid>https://gg-scm.io/cmd/mail/</guid>
       <description>&lt;p&gt;creates or updates a Gerrit change&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -209,10 +209,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg merge</title>
-      <link>https://zombiezen.github.io/gg/cmd/merge/</link>
+      <link>https://gg-scm.io/cmd/merge/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/merge/</guid>
+      <guid>https://gg-scm.io/cmd/merge/</guid>
       <description>&lt;p&gt;merge another revision into working directory&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -220,10 +220,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg pull</title>
-      <link>https://zombiezen.github.io/gg/cmd/pull/</link>
+      <link>https://gg-scm.io/cmd/pull/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/pull/</guid>
+      <guid>https://gg-scm.io/cmd/pull/</guid>
       <description>&lt;p&gt;pull changes from the specified source&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -231,10 +231,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg push</title>
-      <link>https://zombiezen.github.io/gg/cmd/push/</link>
+      <link>https://gg-scm.io/cmd/push/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/push/</guid>
+      <guid>https://gg-scm.io/cmd/push/</guid>
       <description>&lt;p&gt;push changes to the specified destination&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -242,10 +242,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg rebase</title>
-      <link>https://zombiezen.github.io/gg/cmd/rebase/</link>
+      <link>https://gg-scm.io/cmd/rebase/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/rebase/</guid>
+      <guid>https://gg-scm.io/cmd/rebase/</guid>
       <description>&lt;p&gt;move revision (and descendants) to a different branch&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -253,10 +253,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg remove</title>
-      <link>https://zombiezen.github.io/gg/cmd/remove/</link>
+      <link>https://gg-scm.io/cmd/remove/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/remove/</guid>
+      <guid>https://gg-scm.io/cmd/remove/</guid>
       <description>&lt;p&gt;remove the specified files on the next commit&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -264,10 +264,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg revert</title>
-      <link>https://zombiezen.github.io/gg/cmd/revert/</link>
+      <link>https://gg-scm.io/cmd/revert/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/revert/</guid>
+      <guid>https://gg-scm.io/cmd/revert/</guid>
       <description>&lt;p&gt;restore files to their checkout state&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -275,10 +275,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg status</title>
-      <link>https://zombiezen.github.io/gg/cmd/status/</link>
+      <link>https://gg-scm.io/cmd/status/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/status/</guid>
+      <guid>https://gg-scm.io/cmd/status/</guid>
       <description>&lt;p&gt;show changed files in the working directory&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -286,10 +286,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg update</title>
-      <link>https://zombiezen.github.io/gg/cmd/update/</link>
+      <link>https://gg-scm.io/cmd/update/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/update/</guid>
+      <guid>https://gg-scm.io/cmd/update/</guid>
       <description>&lt;p&gt;update working directory (or switch revisions)&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -297,10 +297,10 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;
     
     <item>
       <title>gg upstream</title>
-      <link>https://zombiezen.github.io/gg/cmd/upstream/</link>
+      <link>https://gg-scm.io/cmd/upstream/</link>
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
-      <guid>https://zombiezen.github.io/gg/cmd/upstream/</guid>
+      <guid>https://gg-scm.io/cmd/upstream/</guid>
       <description>&lt;p&gt;query or set upstream branch&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
