@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>gg backout</title>
+      <link>https://gg-scm.io/cmd/backout/</link>
+      <pubDate>Sat, 14 Jul 2018 15:01:07 -0700</pubDate>
+      
+      <guid>https://gg-scm.io/cmd/backout/</guid>
+      <description>&lt;p&gt;reverse effect of an earlier commit&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>gg cat</title>
       <link>https://gg-scm.io/cmd/cat/</link>
       <pubDate>Tue, 10 Jul 2018 22:01:45 -0700</pubDate>
