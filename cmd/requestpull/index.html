@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>gg requestpull - gg</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Patua+One" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/favicon128.png" sizes="128x128">
+  <link rel="icon" type="image/png" href="/favicon512.png" sizes="512x512">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-2285538-10', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body id="page">
+  <div id="top">
+    <h1 id="site_title"><a id="site_title_link" href="/">gg</a></h1>
+    <div id="subtitle">Git like Mercurial</div>
+    <nav id="main_nav">
+      <ul id="main_nav_list">
+        <li class="main_nav_item">
+          <a class="main_nav_link" href="/">Home</a>
+        </li>
+        <li class="main_nav_item">
+          <a class="main_nav_link" href="/workflow/">Workflows</a>
+        </li>
+        <li class="main_nav_item">
+          <a class="main_nav_link" href="/cmd/">Commands</a>
+        </li>
+        <li class="main_nav_item">
+          <a class="main_nav_link" href="https://github.com/zombiezen/gg">GitHub</a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+  <div id="main_block">
+    <main id="main">
+<h1 class="pagetitle">gg requestpull</h1>
+<p class="command_usage">gg requestpull [-n] [BRANCH]</p>
+
+<p>create a GitHub pull request</p>
+
+<p></p>
+
+<p>Create a new GitHub pull request for the given branch (defaults to the
+one currently checked out). The source will be inferred from the
+branch&rsquo;s remote push information and the destination will be inferred
+from upstream fetch information. This command does not push any new
+commits; it just creates a pull request.</p>
+
+<p>For non-dry runs, you must create a <a href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/">personal access token</a> at
+<a href="https://github.com/settings/tokens/new">https://github.com/settings/tokens/new</a> and save it to
+<code>$XDG_CONFIG_HOME/gg/github_token</code> (or in any other directory
+in <code>$XDG_CONFIG_DIRS</code>). By default, this would be
+<code>~/.config/gg/github_token</code>. gg needs at least <code>public_repo</code> scope
+to be able to create pull requests, but you can grant <code>repo</code> scope to
+create pull requests in any repositories you have access to.</p>
+
+<h2 id="options">Options</h2>
+
+<dl class="flag_list">
+    <dt>-n</dt>
+    <dt>-dry-run</dt>
+    <dd>prints the pull request instead of creating it</dd>
+</dl>
+
+
+<h2>Aliases</h2>
+<ul class="command_alias_list">
+  
+  <li><span class="command_alias">pr</span></li>
+</ul>
+
+</div>
+  </div>
+  <footer id="pagefooter">
+    <div id="pagefooter_content">
+      <p>Copyright &copy; 2018 Google LLC</p>
+      <p><a href="https://github.com/zombiezen/gg/edit/master/docs/content/commands/requestpull.md">Improve this page</a> on GitHub.</p>
+      <p>gg is not an official Google product. All content released under an <a href="https://github.com/zombiezen/gg/blob/master/LICENSE" target="_blank">Apache 2.0 License</a>.</p>
+    </div>
+  </footer>
+</body>
+</html>
