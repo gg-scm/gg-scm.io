@@ -47,7 +47,7 @@ if (!doNotTrack) {
   <div id="main_block">
     <main id="main">
 <h1 class="pagetitle">gg requestpull</h1>
-<p class="command_usage">gg requestpull [-n] [BRANCH]</p>
+<p class="command_usage">gg requestpull [-n] [-e=0] [--title=MSG [--body=MSG]] [BRANCH]</p>
 
 <p>create a GitHub pull request</p>
 
@@ -58,6 +58,11 @@ one currently checked out). The source will be inferred from the
 branch&rsquo;s remote push information and the destination will be inferred
 from upstream fetch information. This command does not push any new
 commits; it just creates a pull request.</p>
+
+<p>Before sending the pull request, gg will open an editor with a summary
+of the commits it knows about. The first line will be the pull request
+title, and any subsequent lines will be used as the body. You can exit
+your editor without modifications to accept the default summary.</p>
 
 <p>For non-dry runs, you must create a <a href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/">personal access token</a> at
 <a href="https://github.com/settings/tokens/new">https://github.com/settings/tokens/new</a> and save it to
@@ -70,9 +75,18 @@ create pull requests in any repositories you have access to.</p>
 <h2 id="options">Options</h2>
 
 <dl class="flag_list">
+    <dt>-body description</dt>
+    <dd>pull request description (requires --title)</dd>
+    <dt>-e</dt>
+    <dt>-edit</dt>
+    <dd>invoke editor on pull request message (ignored if --title is specified)</dd>
     <dt>-n</dt>
     <dt>-dry-run</dt>
     <dd>prints the pull request instead of creating it</dd>
+    <dt>-maintainer-edits</dt>
+    <dd>allow maintainers to edit this branch</dd>
+    <dt>-title string</dt>
+    <dd>pull request title</dd>
 </dl>
 
 
