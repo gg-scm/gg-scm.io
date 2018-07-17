@@ -81,7 +81,13 @@ branch to your fork with the same branch name.</p>
 <pre><code class="language-shell">gg branch myfeature
 # hack hack hack
 gg commit -m &quot;Added a feature&quot;
-gg push
+gg push --create
+</code></pre>
+
+<p>If you&rsquo;re on GitHub, you can use <code>gg requestpull</code> (commonly abbreviated to <code>gg
+pr</code>) to create a pull request from the command line.</p>
+
+<pre><code class="language-shell">gg pr
 </code></pre>
 
 <p>To make changes after code review, simply push more commits to your branch and
@@ -91,6 +97,9 @@ run <code>gg push</code> again.</p>
 gg commit -m &quot;Addressed code review comments&quot;
 gg push
 </code></pre>
+
+<p>(Your pull request will automatically be updated; there&rsquo;s no need to create it
+again.)</p>
 
 <h3 id="syncing-your-work-with-the-upstream-branch">Syncing Your Work with the Upstream Branch</h3>
 
@@ -128,7 +137,7 @@ gg commit
 
 <p>Or to rebase your commits onto the downloaded changes:</p>
 
-<pre><code class="language-shell">gg rebase -base=FETCH_HEAD -dst=FETCH_HEAD
+<pre><code class="language-shell">gg rebase --base=FETCH_HEAD --dst=FETCH_HEAD
 </code></pre>
 
 <h3 id="switching-among-changes">Switching Among Changes</h3>
