@@ -173,6 +173,10 @@
   </url>
   
   <url>
+    <loc>https://gg-scm.io/pkg/internal/git/</loc>
+  </url>
+  
+  <url>
     <loc>https://gg-scm.io/pkg/internal/gitobj/</loc>
   </url>
   
