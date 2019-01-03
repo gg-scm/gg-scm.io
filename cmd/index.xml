@@ -17,9 +17,7 @@
       <pubDate>Mon, 16 Jul 2018 08:42:42 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/requestpull/</guid>
-      <description>&lt;p&gt;create a GitHub pull request&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;create a GitHub pull request&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -28,9 +26,7 @@
       <pubDate>Sat, 14 Jul 2018 15:01:07 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/backout/</guid>
-      <description>&lt;p&gt;reverse effect of an earlier commit&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;reverse effect of an earlier commit&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -39,9 +35,7 @@
       <pubDate>Tue, 10 Jul 2018 22:01:45 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/cat/</guid>
-      <description>&lt;p&gt;output the current or given revision of files&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;output the current or given revision of files&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -50,9 +44,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/add/</guid>
-      <description>&lt;p&gt;add the specified files on the next commit&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;add the specified files on the next commit&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -61,9 +53,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/branch/</guid>
-      <description>&lt;p&gt;list or manage branches&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;list or manage branches&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -72,9 +62,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/clone/</guid>
-      <description>&lt;p&gt;make a copy of an existing repository&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;make a copy of an existing repository&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -83,9 +71,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/commit/</guid>
-      <description>&lt;p&gt;commit the specified files or all outstanding changes&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;commit the specified files or all outstanding changes&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -94,9 +80,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/diff/</guid>
-      <description>&lt;p&gt;diff repository (or selected files)&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;diff repository (or selected files)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -105,9 +89,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/evolve/</guid>
-      <description>&lt;p&gt;sync with Gerrit changes in upstream&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;sync with Gerrit changes in upstream&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -116,9 +98,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/gerrithook/</guid>
-      <description>&lt;p&gt;install or uninstall Gerrit change ID hook&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;install or uninstall Gerrit change ID hook&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -127,9 +107,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/histedit/</guid>
-      <description>&lt;p&gt;interactively edit revision history&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;interactively edit revision history&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -138,9 +116,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/init/</guid>
-      <description>&lt;p&gt;create a new repository in the given directory&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;create a new repository in the given directory&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -149,9 +125,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/log/</guid>
-      <description>&lt;p&gt;show revision history of entire repository or files&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;show revision history of entire repository or files&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -160,9 +134,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/mail/</guid>
-      <description>&lt;p&gt;creates or updates a Gerrit change&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;creates or updates a Gerrit change&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -171,9 +143,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/merge/</guid>
-      <description>&lt;p&gt;merge another revision into working directory&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;merge another revision into working directory&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -182,9 +152,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/pull/</guid>
-      <description>&lt;p&gt;pull changes from the specified source&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;pull changes from the specified source&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -193,9 +161,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/push/</guid>
-      <description>&lt;p&gt;push changes to the specified destination&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;push changes to the specified destination&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -204,9 +170,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/rebase/</guid>
-      <description>&lt;p&gt;move revision (and descendants) to a different branch&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;move revision (and descendants) to a different branch&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -215,9 +179,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/remove/</guid>
-      <description>&lt;p&gt;remove the specified files on the next commit&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;remove the specified files on the next commit&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -226,9 +188,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/revert/</guid>
-      <description>&lt;p&gt;restore files to their checkout state&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;restore files to their checkout state&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -237,9 +197,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/status/</guid>
-      <description>&lt;p&gt;show changed files in the working directory&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;show changed files in the working directory&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -248,9 +206,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/update/</guid>
-      <description>&lt;p&gt;update working directory (or switch revisions)&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;update working directory (or switch revisions)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -259,9 +215,7 @@
       <pubDate>Fri, 06 Jul 2018 22:13:11 -0700</pubDate>
       
       <guid>https://gg-scm.io/cmd/upstream/</guid>
-      <description>&lt;p&gt;query or set upstream branch&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;query or set upstream branch&lt;/p&gt;</description>
     </item>
     
   </channel>

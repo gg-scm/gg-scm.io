@@ -20,9 +20,7 @@
       <description>&lt;p&gt;Whether you are working by yourself or with others, the workflow for making
 changes on your local machine stays the same. This guide is primarily aimed at
 those who are new to version control, but is also useful for seasoned version
-control users trying to see how gg stacks up to their current tool.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+control users trying to see how gg stacks up to their current tool.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -36,9 +34,7 @@ to use gg. When using this model, the project has a primary repository that
 only the maintainers of the project have write access to.  Contributors make
 changes by sharing a cloned repository (called the fork) with new branches.
 Contributors send pull requests to maintainers, who then review the code and
-merge in the changes.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+merge in the changes.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -53,9 +49,7 @@ Each developer clones to a repository on their own machine and makes their
 changes. When they are ready to share, they push to a branch on the single
 shared repository. If they are using pull requests, each change goes onto a
 distinct &lt;a href=&#34;https://help.github.com/articles/about-branches/&#34;&gt;branch&lt;/a&gt; for review. Otherwise, usually commits go directly to the
-default branch (usually &lt;code&gt;master&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+default branch (usually &lt;code&gt;master&lt;/code&gt;).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -70,9 +64,7 @@ manage code contributions. Examples include &lt;a href=&#34;https://golang.org/&
 involves amending commits and pushing to specially formatted ref names.
 Developers using Gerrit usually build shortcuts on top of Git to manage this
 complexity, but gg has built-in support for Gerrit. gg makes working with
-Gerrit as easy as other Git workflows.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+Gerrit as easy as other Git workflows.&lt;/p&gt;</description>
     </item>
     
   </channel>
