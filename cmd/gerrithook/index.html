@@ -58,7 +58,10 @@ if (!doNotTrack) {
 inserts a globally unique Change-Id tag in the footer of a commit
 message.</p>
 
-<p>gerrithook downloads the hook script from a public Gerrit server.</p>
+<p>gerrithook downloads the hook script from a public Gerrit server. gg
+caches the last successfully fetched hook script for each URL in
+<code>$XDG_CACHE_DIR/gg/gerrithook/</code>, so if the server is unavailable,
+the local file is used. <code>-cached</code> can force using the cached file.</p>
 
 <p>More details at <a href="https://gerrit-review.googlesource.com/hooks/commit-msg">https://gerrit-review.googlesource.com/hooks/commit-msg</a></p>
 
@@ -67,6 +70,8 @@ message.</p>
 <dl class="flag_list">
     <dt>-url string</dt>
     <dd>URL of hook script to download</dd>
+    <dt>-cached</dt>
+    <dd>Use local cache instead of downloading</dd>
 </dl>
 
 

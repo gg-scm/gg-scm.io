@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>gg pull - gg</title>
+  <title>gg identify - gg</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Patua+One" rel="stylesheet">
   <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16">
   <link rel="icon" type="image/png" href="/favicon128.png" sizes="128x128">
@@ -49,47 +49,37 @@ if (!doNotTrack) {
   </div>
   <div id="main_block">
     <main id="main">
-<h1 class="pagetitle">gg pull</h1>
-<p class="command_usage">gg pull [-u] [-r REF] [SOURCE]</p>
+<h1 class="pagetitle">gg identify</h1>
+<p class="command_usage">gg identify [-r REV]</p>
 
-<p>pull changes from the specified source</p>
+<p>identify the working directory or specified revision</p>
 
-<p>The fetched reference is written to FETCH_HEAD.</p>
-
-<p>If no source repository is given and a branch with a remote tracking
-branch is currently checked out, then that remote is used. Otherwise,
-the remote called &ldquo;origin&rdquo; is used.</p>
-
-<p>If no remote reference is given and the source repository is a named
-remote (like &ldquo;origin&rdquo;), then the remote&rsquo;s configured refspecs will be
-fetched. (This usually means that all the remote-tracking branches
-will be updated.) Any refs deleted on the remote will be pruned.</p>
-
-<p>Otherwise, the source repository is assumed to be a URL. Only a single
-ref will be fetched in this case and written to <code>FETCH_HEAD</code>, a
-special ref name. If no remote reference is given and a branch is
-currently checked out, then the branch&rsquo;s remote tracking branch is
-used or the branch with the same name if the branch has no remote
-tracking branch. Otherwise <code>HEAD</code> is used.</p>
+<p>Print a summary of the revision or working directory if no revision
+was provided. The revision&rsquo;s hash identifier is printed, followed by
+a &ldquo;+&rdquo; if the working copy is being summarized and there are
+uncommitted changes, a list of branches it is the tip of, and a list
+of tags.</p>
 
 <h2 id="options">Options</h2>
 
 <dl class="flag_list">
-    <dt>-r ref</dt>
-    <dd>remote reference intended to be pulled</dd>
-    <dt>-tags</dt>
-    <dd>pull all tags from remote</dd>
-    <dt>-u</dt>
-    <dd>update to new head if new descendants were pulled</dd>
+    <dt>-r rev</dt>
+    <dd>identify the specified revision</dd>
 </dl>
 
+
+<h2>Aliases</h2>
+<ul class="command_alias_list">
+  
+  <li><span class="command_alias">id</span></li>
+</ul>
 
 </div>
   </div>
   <footer id="pagefooter">
     <div id="pagefooter_content">
       <p>Copyright © 2018–2019 Google LLC</p>
-      <p><a href="https://github.com/zombiezen/gg/edit/master/docs/content/commands/pull.md" class="editpagelink">Improve this page</a> on GitHub.</p>
+      <p><a href="https://github.com/zombiezen/gg/edit/master/docs/content/commands/identify.md" class="editpagelink">Improve this page</a> on GitHub.</p>
       <p>gg is not an official Google product. All content released under an <a href="https://github.com/zombiezen/gg/blob/master/LICENSE" target="_blank">Apache 2.0 License</a>.</p>
     </div>
   </footer>

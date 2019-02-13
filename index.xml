@@ -69,6 +69,15 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>gg identify</title>
+      <link>https://gg-scm.io/cmd/identify/</link>
+      <pubDate>Wed, 13 Feb 2019 09:01:29 -0800</pubDate>
+      
+      <guid>https://gg-scm.io/cmd/identify/</guid>
+      <description>&lt;p&gt;identify the working directory or specified revision&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>gg requestpull</title>
       <link>https://gg-scm.io/cmd/requestpull/</link>
       <pubDate>Mon, 16 Jul 2018 08:42:42 -0700</pubDate>

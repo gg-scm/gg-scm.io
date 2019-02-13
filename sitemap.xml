@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://gg-scm.io/cmd/identify/</loc>
+    <lastmod>2019-02-13T09:01:29-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gg-scm.io/cmd/requestpull/</loc>
     <lastmod>2018-07-16T22:25:30-07:00</lastmod>
   </url>
@@ -69,7 +74,7 @@
   
   <url>
     <loc>https://gg-scm.io/cmd/gerrithook/</loc>
-    <lastmod>2018-07-06T22:36:13-07:00</lastmod>
+    <lastmod>2019-02-13T09:01:29-08:00</lastmod>
   </url>
   
   <url>
@@ -99,7 +104,7 @@
   
   <url>
     <loc>https://gg-scm.io/cmd/pull/</loc>
-    <lastmod>2018-07-06T22:36:13-07:00</lastmod>
+    <lastmod>2019-02-13T09:01:29-08:00</lastmod>
   </url>
   
   <url>
@@ -129,7 +134,7 @@
   
   <url>
     <loc>https://gg-scm.io/cmd/update/</loc>
-    <lastmod>2018-07-06T22:36:13-07:00</lastmod>
+    <lastmod>2019-02-13T09:01:29-08:00</lastmod>
   </url>
   
   <url>
