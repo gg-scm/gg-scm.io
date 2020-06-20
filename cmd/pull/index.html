@@ -50,35 +50,28 @@ if (!doNotTrack) {
   <div id="main_block">
     <main id="main">
 <h1 class="pagetitle">gg pull</h1>
-<p class="command_usage">gg pull [-u] [-r REF] [SOURCE]</p>
+<p class="command_usage">gg pull [-u] [-r REV [...]] [SOURCE]</p>
 
 <p>pull changes from the specified source</p>
 
-<p>The fetched reference is written to FETCH_HEAD.</p>
+<p>Local branches with the same name as a remote branch will be
+fast-forwarded if possible.</p>
 
-<p>If no source repository is given and a branch with a remote tracking
-branch is currently checked out, then that remote is used. Otherwise,
-the remote called &ldquo;origin&rdquo; is used.</p>
+<p>If no source repository is given and a branch with an upstream branch
+is currently checked out, then the upstream&rsquo;s remote is used.
+Otherwise, the remote called &ldquo;origin&rdquo; is used. If the source repository
+is not a named remote, then the branches will be saved under
+<code>refs/ggpull/</code>.</p>
 
-<p>If no remote reference is given and the source repository is a named
-remote (like &ldquo;origin&rdquo;), then the remote&rsquo;s configured refspecs will be
-fetched. (This usually means that all the remote-tracking branches
-will be updated.) Any refs deleted on the remote will be pruned.</p>
-
-<p>Otherwise, the source repository is assumed to be a URL. Only a single
-ref will be fetched in this case and written to <code>FETCH_HEAD</code>, a
-special ref name. If no remote reference is given and a branch is
-currently checked out, then the branch&rsquo;s remote tracking branch is
-used or the branch with the same name if the branch has no remote
-tracking branch. Otherwise <code>HEAD</code> is used.</p>
+<p>If no revisions are specified, then all the remote&rsquo;s branches and tags
+will be fetched. If the source is a named remote, then its remote
+tracking branches will be pruned.</p>
 
 <h2 id="options">Options</h2>
 
 <dl class="flag_list">
     <dt>-r ref</dt>
-    <dd>remote reference intended to be pulled</dd>
-    <dt>-tags</dt>
-    <dd>pull all tags from remote</dd>
+    <dd>refs to pull</dd>
     <dt>-u</dt>
     <dd>update to new head if new descendants were pulled</dd>
 </dl>
@@ -89,8 +82,11 @@ tracking branch. Otherwise <code>HEAD</code> is used.</p>
   <footer id="pagefooter">
     <div id="pagefooter_content">
       <p>Copyright © 2018–2019 Google LLC</p>
-      <p><a href="https://github.com/zombiezen/gg/edit/master/docs/content/commands/pull.md" class="editpagelink">Improve this page</a> on GitHub.</p>
-      <p>gg is not an official Google product. All content released under an <a href="https://github.com/zombiezen/gg/blob/master/LICENSE" target="_blank">Apache 2.0 License</a>.</p>
+      <p>
+        <a href="https://github.com/zombiezen/gg/edit/main/docs/content/commands/pull.md" class="editpagelink">Improve this page</a>
+        on GitHub.
+      </p>
+      <p>gg is not an official Google product. All content released under an <a href="https://github.com/zombiezen/gg/blob/main/LICENSE" target="_blank">Apache 2.0 License</a>.</p>
     </div>
   </footer>
   <script type="text/javascript" src="/page.js" defer></script>
