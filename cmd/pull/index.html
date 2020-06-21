@@ -54,14 +54,13 @@ if (!doNotTrack) {
 
 <p>pull changes from the specified source</p>
 
-<p>Local branches with the same name as a remote branch will be
-fast-forwarded if possible.</p>
+<p>If no source repository is given, the remote called <code>origin</code> is used.
+If the source repository is not a named remote, then the branches will be
+saved under <code>refs/ggpull/</code>.</p>
 
-<p>If no source repository is given and a branch with an upstream branch
-is currently checked out, then the upstream&rsquo;s remote is used.
-Otherwise, the remote called &ldquo;origin&rdquo; is used. If the source repository
-is not a named remote, then the branches will be saved under
-<code>refs/ggpull/</code>.</p>
+<p>Local branches with the same name as a remote branch will be
+fast-forwarded if possible. The currently checked out branch will not be
+fast-forwarded unless <code>-u</code> is passed.</p>
 
 <p>If no revisions are specified, then all the remote&rsquo;s branches and tags
 will be fetched. If the source is a named remote, then its remote
