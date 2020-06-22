@@ -33,7 +33,7 @@ if (!doNotTrack) {
 <body id="page">
   <div id="top">
     <h1 id="site_title"><a id="site_title_link" href="/">gg</a></h1>
-    <div id="subtitle">Git like Mercurial</div>
+    <div id="subtitle">Git with less typing</div>
     <nav id="main_nav">
       <ul id="main_nav_list">
         <li class="main_nav_item active">
@@ -58,27 +58,29 @@ if (!doNotTrack) {
   <div id="main_block">
     <main id="main">
 
-<p>gg is a command-line wrapper around <a href="https://git-scm.com/">Git</a> that behaves like <a href="https://www.mercurial-scm.org/">Mercurial</a>. It
-works well enough for the primary author&rsquo;s everyday use. It can be thought of as
-an alternate <a href="https://git-scm.com/book/en/v2/Git-Internals-Plumbing-and-Porcelain">porcelain</a> for Git.</p>
+<p>gg is an alternative command-line interface for <a href="https://git-scm.com/">Git</a> heavily inspired by
+<a href="https://www.mercurial-scm.org/">Mercurial</a>. It&rsquo;s designed for less typing in common workflows and make Git
+easier to use for both novices and advanced users alike.</p>
 
-<p>gg is built around three basic principles:</p>
-
-<ol>
-<li><strong>gg should be good enough to replace the git CLI for common workflows, but
-gg does not replace git.</strong> Asking the user to duck down into git for some
-arcana is perfectly acceptable if the alternative is adding complexity to
-gg.</li>
-<li><strong>Every gg command should map cleanly to a sequence of git commands.</strong> gg&rsquo;s
-implementation might interact with the .git directory directly for
-efficiency, but only if a set of git CLI invocations would produce
-equivalent results.</li>
-<li><strong>Strive for Mercurial&rsquo;s command set, but don&rsquo;t be beholden to it.</strong> For
-example, gg uses git&rsquo;s revision parsing logic instead of trying to replicate
-Mercurial&rsquo;s.  Branches act like Mercurial bookmarks rather than Mercurial&rsquo;s
-branches, since Git doesn&rsquo;t have an equivalent concept.  Simplicity is
-preferred over exact compatibility.</li>
-</ol>
+<ul>
+<li><strong>Abbreviations.</strong> <code>git commit -a</code> takes 13 characters to type. <a href="/cmd/commit/"><code>gg ci</code></a>
+takes 5 to do the same thing (don&rsquo;t worry, you can still type <code>gg commit</code>).</li>
+<li><strong>Built for GitHub and Gerrit.</strong> gg has built-in support for <a href="/workflow/shared/">creating pull
+requests</a> and <a href="/workflow/gerrit/">creating Gerrit changesets</a> straight from the
+command-line. No more context switching.</li>
+<li><strong>Safer rebases.</strong> <a href="/cmd/rebase/"><code>gg rebase</code></a> automatically detects common mistakes while
+rebasing and infers the correct change.</li>
+<li><strong>Local branches match remote branches.</strong> Using <a href="/cmd/pull/"><code>gg pull</code></a> automatically
+creates branches that match your remotes to avoid confusion.</li>
+<li><strong>Optional staging.</strong> gg avoids using the staging area to save on typing and
+mistakes. However, gg takes great care to avoid perturbing the staging area,
+so for more advanced commits, you can keep using the same Git commands you&rsquo;re
+used to.</li>
+<li><strong>Works with existing Git tools.</strong> You can use or not use gg as much as you
+want in your workflow. gg is just a wrapper for the Git CLI, so it works with
+any hooks or custom patches to Git that your project may use. You can see the
+exact Git commands gg runs by passing in <code>--show-git</code>.</li>
+</ul>
 
 <h2 id="getting-started">Getting Started</h2>
 
