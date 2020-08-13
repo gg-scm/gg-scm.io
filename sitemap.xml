@@ -162,39 +162,47 @@
   </url>
   
   <url>
-    <loc>https://gg-scm.io/pkg/cmd/</loc>
+    <loc>https://gg-scm.io/pkg/git/</loc>
   </url>
   
   <url>
-    <loc>https://gg-scm.io/pkg/cmd/gg/</loc>
+    <loc>https://gg-scm.io/tool/</loc>
   </url>
   
   <url>
-    <loc>https://gg-scm.io/pkg/internal/</loc>
+    <loc>https://gg-scm.io/tool/cmd/</loc>
   </url>
   
   <url>
-    <loc>https://gg-scm.io/pkg/internal/flag/</loc>
+    <loc>https://gg-scm.io/tool/cmd/gg/</loc>
   </url>
   
   <url>
-    <loc>https://gg-scm.io/pkg/internal/git/</loc>
+    <loc>https://gg-scm.io/tool/internal/</loc>
   </url>
   
   <url>
-    <loc>https://gg-scm.io/pkg/internal/gitobj/</loc>
+    <loc>https://gg-scm.io/tool/internal/flag/</loc>
   </url>
   
   <url>
-    <loc>https://gg-scm.io/pkg/internal/gittool/</loc>
+    <loc>https://gg-scm.io/tool/internal/git/</loc>
   </url>
   
   <url>
-    <loc>https://gg-scm.io/pkg/internal/singleclose/</loc>
+    <loc>https://gg-scm.io/tool/internal/gitobj/</loc>
   </url>
   
   <url>
-    <loc>https://gg-scm.io/pkg/internal/terminal/</loc>
+    <loc>https://gg-scm.io/tool/internal/gittool/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/tool/internal/singleclose/</loc>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/tool/internal/terminal/</loc>
   </url>
   
 </urlset>

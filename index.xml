@@ -285,65 +285,74 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>gg-scm.io/pkg/cmd/gg</title>
-      <link>https://gg-scm.io/pkg/cmd/gg/</link>
+      <title>gg-scm.io/pkg/git</title>
+      <link>https://gg-scm.io/pkg/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gg-scm.io/pkg/cmd/gg/</guid>
+      <guid>https://gg-scm.io/pkg/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gg-scm.io/pkg/internal/flag</title>
-      <link>https://gg-scm.io/pkg/internal/flag/</link>
+      <title>gg-scm.io/tool/cmd/gg</title>
+      <link>https://gg-scm.io/tool/cmd/gg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gg-scm.io/pkg/internal/flag/</guid>
+      <guid>https://gg-scm.io/tool/cmd/gg/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gg-scm.io/pkg/internal/git</title>
-      <link>https://gg-scm.io/pkg/internal/git/</link>
+      <title>gg-scm.io/tool/internal/flag</title>
+      <link>https://gg-scm.io/tool/internal/flag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gg-scm.io/pkg/internal/git/</guid>
+      <guid>https://gg-scm.io/tool/internal/flag/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gg-scm.io/pkg/internal/gitobj</title>
-      <link>https://gg-scm.io/pkg/internal/gitobj/</link>
+      <title>gg-scm.io/tool/internal/git</title>
+      <link>https://gg-scm.io/tool/internal/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gg-scm.io/pkg/internal/gitobj/</guid>
+      <guid>https://gg-scm.io/tool/internal/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gg-scm.io/pkg/internal/gittool</title>
-      <link>https://gg-scm.io/pkg/internal/gittool/</link>
+      <title>gg-scm.io/tool/internal/gitobj</title>
+      <link>https://gg-scm.io/tool/internal/gitobj/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gg-scm.io/pkg/internal/gittool/</guid>
+      <guid>https://gg-scm.io/tool/internal/gitobj/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gg-scm.io/pkg/internal/singleclose</title>
-      <link>https://gg-scm.io/pkg/internal/singleclose/</link>
+      <title>gg-scm.io/tool/internal/gittool</title>
+      <link>https://gg-scm.io/tool/internal/gittool/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gg-scm.io/pkg/internal/singleclose/</guid>
+      <guid>https://gg-scm.io/tool/internal/gittool/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>gg-scm.io/pkg/internal/terminal</title>
-      <link>https://gg-scm.io/pkg/internal/terminal/</link>
+      <title>gg-scm.io/tool/internal/singleclose</title>
+      <link>https://gg-scm.io/tool/internal/singleclose/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gg-scm.io/pkg/internal/terminal/</guid>
+      <guid>https://gg-scm.io/tool/internal/singleclose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/tool/internal/terminal</title>
+      <link>https://gg-scm.io/tool/internal/terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/tool/internal/terminal/</guid>
       <description></description>
     </item>
     

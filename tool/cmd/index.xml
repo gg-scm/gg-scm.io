@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gg-scm.io/pkg/cmd on gg</title>
-    <link>https://gg-scm.io/pkg/cmd/</link>
-    <description>Recent content in gg-scm.io/pkg/cmd on gg</description>
+    <title>gg-scm.io/tool/cmd on gg</title>
+    <link>https://gg-scm.io/tool/cmd/</link>
+    <description>Recent content in gg-scm.io/tool/cmd on gg</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2018–2020 The gg Authors</copyright>
     
-	<atom:link href="https://gg-scm.io/pkg/cmd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gg-scm.io/tool/cmd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>gg-scm.io/pkg/cmd/gg</title>
-      <link>https://gg-scm.io/pkg/cmd/gg/</link>
+      <title>gg-scm.io/tool/cmd/gg</title>
+      <link>https://gg-scm.io/tool/cmd/gg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://gg-scm.io/pkg/cmd/gg/</guid>
+      <guid>https://gg-scm.io/tool/cmd/gg/</guid>
       <description></description>
     </item>
     

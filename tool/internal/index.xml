@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gg-scm.io/tool/internal on gg</title>
+    <link>https://gg-scm.io/tool/internal/</link>
+    <description>Recent content in gg-scm.io/tool/internal on gg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2018–2020 The gg Authors</copyright>
+    
+	<atom:link href="https://gg-scm.io/tool/internal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gg-scm.io/tool/internal/flag</title>
+      <link>https://gg-scm.io/tool/internal/flag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/tool/internal/flag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/tool/internal/git</title>
+      <link>https://gg-scm.io/tool/internal/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/tool/internal/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/tool/internal/gitobj</title>
+      <link>https://gg-scm.io/tool/internal/gitobj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/tool/internal/gitobj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/tool/internal/gittool</title>
+      <link>https://gg-scm.io/tool/internal/gittool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/tool/internal/gittool/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/tool/internal/singleclose</title>
+      <link>https://gg-scm.io/tool/internal/singleclose/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/tool/internal/singleclose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/tool/internal/terminal</title>
+      <link>https://gg-scm.io/tool/internal/terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://gg-scm.io/tool/internal/terminal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
