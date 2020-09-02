@@ -101,11 +101,11 @@ exact Git commands gg runs by passing in <code>--show-git</code>.</li>
 To use the APT repository:</p>
 
 <pre><code># Import the gg public key
-curl -fsSL https://gg-scm.io/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/gg.gpg add -
+curl -fsSL https://gg-scm.io/apt-key.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/gg.gpg add -
 
 # Add the gg APT repository to the list of sources
-echo &quot;deb [signed-by=/usr/share/keyrings/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee /etc/apt/sources.list.d/gg.list
-echo &quot;deb-src [signed-by=/usr/share/keyrings/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee -a /etc/apt/sources.list.d/gg.list
+echo &quot;deb [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee /etc/apt/sources.list.d/gg.list
+echo &quot;deb-src [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee -a /etc/apt/sources.list.d/gg.list
 
 # Update the package list and install gg
 sudo apt-get update &amp;&amp; sudo apt-get install gg
