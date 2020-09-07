@@ -41,7 +41,8 @@ easier to use for both novices and advanced users alike.
 
 ## Getting Started
 
-{{< latestrelease >}} Pre-built binaries are available for Linux and macOS.
+{{< latestrelease >}} Pre-built binaries are available for Linux, Windows,
+and macOS.
 
 Binary packages are available for Debian-based systems, including Ubuntu.
 To use the APT repository:
