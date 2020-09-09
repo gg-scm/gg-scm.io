@@ -46,7 +46,7 @@ if (!doNotTrack) {
           <a class="main_nav_link" href="/cmd/">Commands</a>
         </li>
         <li class="main_nav_item">
-          <a class="main_nav_link downloadlink" href="https://github.com/gg-scm/gg/releases/latest">Download</a>
+          <a class="main_nav_link" href="/install/">Install</a>
         </li>
         <li class="main_nav_item">
           <a class="main_nav_link githublink" href="https://github.com/gg-scm/gg">GitHub</a>
@@ -80,50 +80,25 @@ any hooks or custom patches to Git that your project may use. You can see the
 exact Git commands gg runs by passing in <code>--show-git</code>.</li>
 </ul>
 
+<h2 id="getting-started">Getting Started</h2>
+
 <button
   type="button"
-  class="download_button"
-  data-href="https://github.com/gg-scm/gg/releases/tag/v1.0.3"
+  class="link_button download_button"
+  data-href="/install/"
 >
-  Download
+  Download gg
 </button>
 
 
-<h2 id="getting-started">Getting Started</h2>
-
-<p>Download the
-<a href="https://github.com/gg-scm/gg/releases/tag/v1.0.3" class="downloadlink">latest release</a>
-(1.0.3), which was released on
-<time datetime="2020-09-07">Sep 7, 2020</time>.
- Pre-built binaries are available for Linux, Windows,
-and macOS.</p>
-
-<p>Binary packages are available for Debian-based systems, including Ubuntu.
-To use the APT repository:</p>
-
-<pre><code># Import the gg public key
-curl -fsSL https://gg-scm.io/apt-key.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/gg.gpg add -
-
-# Add the gg APT repository to the list of sources
-echo &quot;deb [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee /etc/apt/sources.list.d/gg.list
-echo &quot;deb-src [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee -a /etc/apt/sources.list.d/gg.list
-
-# Update the package list and install gg
-sudo apt-get update &amp;&amp; sudo apt-get install gg
-</code></pre>
-
-<p>You must have a moderately recent copy of Git in your <code>PATH</code> to run gg. gg is
-tested against Git 2.17.1 and newer. Older versions may work, but are not
-supported.</p>
-
-<p>Once you have gg installed in your <code>PATH</code>, the <a href="/workflow/local/">Working Locally</a> guide will
-show you how to use the basic commands.</p>
+<p>After installing gg, the <a href="/workflow/local/">Working Locally</a> guide will show you how to use the
+basic commands.</p>
 
 <h2 id="testimonials">Testimonials</h2>
 
 <ul>
 <li>&ldquo;I&rsquo;m not sure if this is amazing or terrifying.  But it&rsquo;s definitely nifty!&rdquo; -<a href="https://github.com/rspier">@rspier</a></li>
-</ul></div>
+</ul></main>
   </div>
   <footer id="pagefooter">
     <div id="pagefooter_content">

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Installation - gg</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Patua+One" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/favicon128.png" sizes="128x128">
+  <link rel="icon" type="image/png" href="/favicon512.png" sizes="512x512">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-2285538-10', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+  <meta property="og:url" content="https://gg-scm.io/install/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="Installation - gg">
+  <meta name="twitter:title" content="Installation - gg">
+  <meta property="og:image" content="/social-preview.png">
+  <meta name="twitter:image:src" content="/social-preview.png">
+</head>
+<body id="page">
+  <div id="top">
+    <h1 id="site_title"><a id="site_title_link" href="/">gg</a></h1>
+    <div id="subtitle">Git with less typing</div>
+    <nav id="main_nav">
+      <ul id="main_nav_list">
+        <li class="main_nav_item">
+          <a class="main_nav_link" href="/">Home</a>
+        </li>
+        <li class="main_nav_item">
+          <a class="main_nav_link" href="/workflow/">Workflows</a>
+        </li>
+        <li class="main_nav_item">
+          <a class="main_nav_link" href="/cmd/">Commands</a>
+        </li>
+        <li class="main_nav_item active">
+          <a class="main_nav_link" href="/install/">Install</a>
+        </li>
+        <li class="main_nav_item">
+          <a class="main_nav_link githublink" href="https://github.com/gg-scm/gg">GitHub</a>
+        </li>
+        
+      </ul>
+    </nav>
+  </div>
+  <div id="main_block">
+    <main id="main">
+<h1 class="pagetitle">Installation</h1><div class="list_intro_content">
+
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>You must have a moderately recent copy of Git installed in your <code>PATH</code> to
+run gg. gg is tested against Git 2.17.1 and newer. Older versions may work, but
+are not supported.</p>
+
+<h2 id="binaries">Binaries</h2>
+
+<p>The latest release is <a href="https://github.com/gg-scm/gg/releases/tag/v1.0.3" class="downloadlink">1.0.3</a>, which was released on
+<time datetime="2020-09-07">Sep 7, 2020</time>. Pre-built binaries are available for Linux, Windows,
+and macOS.</p>
+
+<h3 id="linux">Linux</h3>
+
+<p>Binary packages are available for Debian-based systems, including Ubuntu.
+To use the APT repository, run:</p>
+
+<pre><code class="language-shell"># Import the gg public key
+curl -fsSL https://gg-scm.io/apt-key.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/gg.gpg add -
+
+# Add the gg APT repository to the list of sources
+echo &quot;deb [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee /etc/apt/sources.list.d/gg.list
+echo &quot;deb-src [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee -a /etc/apt/sources.list.d/gg.list
+
+# Update the package list and install gg
+sudo apt-get update &amp;&amp; sudo apt-get install gg
+</code></pre>
+
+<p>For other distributions, download the Linux binary in the
+<a href="https://github.com/gg-scm/gg/releases/tag/v1.0.3" class="downloadlink">latest GitHub release</a> and place it
+in your <code>PATH</code>.</p>
+
+<h3 id="windows">Windows</h3>
+
+<p>Download and run the .msi installer file from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.0.3" class="downloadlink">latest
+GitHub release</a>. Package manager integration is coming
+soon.</p>
+
+<h3 id="macos">macOS</h3>
+
+<p>gg can be installed from <a href="https://brew.sh/">Homebrew</a>:</p>
+
+<pre><code class="language-shell">brew install gg-scm/gg/gg
+</code></pre>
+
+<p>or a binary can be downloaded from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.0.3" class="downloadlink">latest GitHub
+release</a> and placed in your <code>PATH</code>.</p>
+
+<h2 id="source">Source</h2>
+
+<p>If you are using an operating system that Go and Git support but there isn&rsquo;t a
+gg binary available, you can try <a href="https://github.com/gg-scm/gg/blob/main/CONTRIBUTING.md#building-from-source">building from source</a>.</p>
+
+</div>
+
+
+</main>
+  </div>
+  <footer id="pagefooter">
+    <div id="pagefooter_content">
+      <p>Copyright © 2018–2020 The gg Authors</p>
+      <p>
+        Something wrong?
+        <a href="https://github.com/gg-scm/gg-scm.io/edit/main/content/install/_index.md" class="editpagelink">Improve this page</a>
+        on GitHub.
+      </p>
+      <p>
+        Find gg useful?
+        Consider <a href="https://github.com/sponsors/zombiezen" target="_blank">sponsoring @zombiezen</a>.
+      </p>
+      <p>gg is not an official Google product. All content released under an <a href="https://github.com/gg-scm/gg-scm.io/blob/main/LICENSE" target="_blank">Apache 2.0 License</a>.</p>
+    </div>
+  </footer>
+  <script type="text/javascript" src="/page.js" defer></script>
+</body>
+</html>
