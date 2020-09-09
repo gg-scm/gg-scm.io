@@ -33,9 +33,9 @@ url = "/cmd/"
 weight = 3
 
 [[menu.main]]
-identifier = "download"
-name = "Download"
-url = "https://github.com/gg-scm/gg/releases/latest"
+identifier = "install"
+name = "Install"
+url = "/install/"
 weight = 4
 
 [[menu.main]]

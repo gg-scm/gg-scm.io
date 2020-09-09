@@ -1,7 +1,7 @@
 ---
 title: "Home"
 date: 2018-06-13 08:48:58-07:00
-lastmod: 2020-06-22 16:30:00-07:00
+lastmod: 2020-09-09 11:45:00-07:00
 ---
 
 gg is an alternative command-line interface for [Git][] heavily inspired by
@@ -31,8 +31,6 @@ easier to use for both novices and advanced users alike.
   any hooks or custom patches to Git that your project may use. You can see the
   exact Git commands gg runs by passing in `--show-git`.
 
-{{< downloadbutton >}}
-
 [creating Gerrit changesets]: {{< relref "workflows/gerrit.md" >}}
 [creating pull requests]: {{< relref "workflows/shared.md" >}}
 [`gg ci`]: {{< relref "commands/commit.md" >}}
@@ -41,30 +39,10 @@ easier to use for both novices and advanced users alike.
 
 ## Getting Started
 
-{{< latestrelease >}} Pre-built binaries are available for Linux, Windows,
-and macOS.
+{{< downloadbutton >}}
 
-Binary packages are available for Debian-based systems, including Ubuntu.
-To use the APT repository:
-
-```
-# Import the gg public key
-curl -fsSL https://gg-scm.io/apt-key.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/gg.gpg add -
-
-# Add the gg APT repository to the list of sources
-echo "deb [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main" | sudo tee /etc/apt/sources.list.d/gg.list
-echo "deb-src [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main" | sudo tee -a /etc/apt/sources.list.d/gg.list
-
-# Update the package list and install gg
-sudo apt-get update && sudo apt-get install gg
-```
-
-You must have a moderately recent copy of Git in your `PATH` to run gg. gg is
-tested against Git 2.17.1 and newer. Older versions may work, but are not
-supported.
-
-Once you have gg installed in your `PATH`, the [Working Locally][] guide will
-show you how to use the basic commands.
+After installing gg, the [Working Locally][] guide will show you how to use the
+basic commands.
 
 [Working Locally]: {{< relref "workflows/local.md" >}}
 

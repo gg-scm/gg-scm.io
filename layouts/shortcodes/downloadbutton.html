@@ -1,7 +1,7 @@
 <button
   type="button"
-  class="download_button"
-  data-href="https://github.com/gg-scm/gg/releases/tag/v{{.Site.Params.latestRelease}}"
+  class="link_button download_button"
+  data-href="{{ (.Site.GetPage "install/_index.md").RelPermalink }}"
 >
-  Download
+  Download gg
 </button>
