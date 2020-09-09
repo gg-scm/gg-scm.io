@@ -62,4 +62,9 @@ gg binary available, you can try [building from source][].
 
 [building from source]: https://github.com/gg-scm/gg/blob/main/CONTRIBUTING.md#building-from-source
 
+## What's Next?
 
+After installing gg, the [Working Locally][] guide will show you how to use the
+basic commands.
+
+[Working Locally]: {{< relref "workflows/local.md" >}}
