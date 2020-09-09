@@ -7,7 +7,6 @@
       "label": "Serve",
       "type": "shell",
       "command": "hugo serve --disableFastRender --port=8080",
-      "options": {"cwd": "${workspaceRoot}/docs"},
       "isBackground": true,
       "problemMatcher": {
         "pattern": {
@@ -29,7 +28,6 @@
       "label": "Serve with Drafts",
       "type": "shell",
       "command": "hugo serve -D --disableFastRender --port=8080",
-      "options": {"cwd": "${workspaceRoot}/docs"},
       "isBackground": true,
       "problemMatcher": {
         "pattern": {
