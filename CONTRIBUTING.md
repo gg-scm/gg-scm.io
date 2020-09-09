@@ -15,7 +15,7 @@ There are just a few small guidelines you need to follow.
 
 This site is built using [Hugo][]. Once you have it installed, develop with:
 
-```
+```shell
 hugo serve
 ```
 
