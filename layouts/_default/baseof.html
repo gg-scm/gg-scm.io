@@ -29,7 +29,7 @@
       <ul id="main_nav_list">
         {{range .Site.Menus.main -}}
         <li class="main_nav_item {{- if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .)}} active{{end}}" {{- with .Title}} title="{{.}}"{{end}}>
-          <a class="main_nav_link{{if eq .Identifier "github"}} githublink{{end}}" href="{{.URL}}">{{.Name}}</a>
+          <a class="main_nav_link {{- if eq .Identifier "github"}} githublink{{end}} {{- if eq .Identifier "discord"}} discordlink{{end}}" href="{{.URL}}">{{.Name}}</a>
         </li>
         {{end}}
       </ul>
@@ -49,7 +49,6 @@
       </p>
       {{- end}}
       <p>
-        Find us on <a href="https://discord.gg/2hkE3yj7y6">Discord</a>.
         Find gg useful?
         Consider <a href="https://github.com/sponsors/zombiezen" target="_blank">sponsoring @zombiezen</a>.
       </p>
