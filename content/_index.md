@@ -44,6 +44,9 @@ easier to use for both novices and advanced users alike.
 After installing gg, the [Working Locally][] guide will show you how to use the
 basic commands.
 
+Consider joining our [Discord server][] for support.
+
+[Discord server]: https://discord.gg/2hkE3yj7y6
 [Working Locally]: {{< relref "workflows/local.md" >}}
 
 ## Testimonials
