@@ -23,6 +23,16 @@
   </url>
   
   <url>
+    <loc>https://gg-scm.io/pkg/ghdevice/</loc>
+    <lastmod>2020-11-23T07:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/ghdevice/cmd/ghtoken/</loc>
+    <lastmod>2020-11-23T07:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gg-scm.io/install/</loc>
     <lastmod>2020-09-09T11:45:00-07:00</lastmod>
   </url>

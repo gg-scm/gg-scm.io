@@ -69,6 +69,15 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>gg-scm.io/pkg/ghdevice/cmd/ghtoken</title>
+      <link>https://gg-scm.io/pkg/ghdevice/cmd/ghtoken/</link>
+      <pubDate>Mon, 23 Nov 2020 07:00:00 -0800</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/ghdevice/cmd/ghtoken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>gg identify</title>
       <link>https://gg-scm.io/cmd/identify/</link>
       <pubDate>Wed, 13 Feb 2019 09:01:29 -0800</pubDate>
