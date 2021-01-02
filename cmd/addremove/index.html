@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>gg branch - gg</title>
+  <title>gg addremove - gg</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Patua+One" rel="stylesheet">
   <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16">
   <link rel="icon" type="image/png" href="/favicon128.png" sizes="128x128">
@@ -22,10 +22,10 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 
-  <meta property="og:url" content="https://gg-scm.io/cmd/branch/">
+  <meta property="og:url" content="https://gg-scm.io/cmd/addremove/">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:title" content="gg branch - gg">
-  <meta name="twitter:title" content="gg branch - gg">
+  <meta property="og:title" content="gg addremove - gg">
+  <meta name="twitter:title" content="gg addremove - gg">
   <meta property="og:image" content="/social-preview.png">
   <meta name="twitter:image:src" content="/social-preview.png">
 </head>
@@ -59,35 +59,10 @@ if (!doNotTrack) {
   </div>
   <div id="main_block">
     <main id="main">
-<h1 class="pagetitle">gg branch</h1>
-<p class="command_usage">gg branch [-d] [-f] [-r REV] [NAME [...]]</p>
+<h1 class="pagetitle">gg addremove</h1>
+<p class="command_usage">gg addremove [FILE [...]]</p>
 
-<p>list or manage branches</p>
-
-<p>Branches are references to commits to help track lines of
-development. Branches are unversioned and can be moved, renamed, and
-deleted.</p>
-
-<p>Creating or updating to a branch causes it to be marked as active.
-When a commit is made, the active branch will advance to the new
-commit. A plain <code>gg update</code> will also advance an active branch, if
-possible. If the revision specifies a branch with an upstream, then
-any new branch will use the named branch&rsquo;s upstream.</p>
-
-<h2 id="options">Options</h2>
-
-<dl class="flag_list">
-    <dt>-d</dt>
-    <dt>-delete</dt>
-    <dd>delete the given branches</dd>
-    <dt>-f</dt>
-    <dt>-force</dt>
-    <dd>force</dd>
-    <dt>-r rev</dt>
-    <dd>revision to place branches on</dd>
-    <dt>-sort order</dt>
-    <dd>sort order when listing: &#39;name&#39; or &#39;date&#39;. May be prefixed by &#39;-&#39; for descending.</dd>
-</dl>
+<p>add all new files, delete all missing files</p>
 
 
 </main>
@@ -97,7 +72,7 @@ any new branch will use the named branch&rsquo;s upstream.</p>
       <p>Copyright © 2018–2020 The gg Authors</p>
       <p>
         Something wrong?
-        <a href="https://github.com/gg-scm/gg-scm.io/edit/main/content/commands/branch.md" class="editpagelink">Improve this page</a>
+        <a href="https://github.com/gg-scm/gg-scm.io/edit/main/content/commands/addremove.md" class="editpagelink">Improve this page</a>
         on GitHub.
       </p>
       <p>

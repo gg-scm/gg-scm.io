@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>gg github-login</title>
+      <link>https://gg-scm.io/cmd/github-login/</link>
+      <pubDate>Sat, 02 Jan 2021 13:42:37 -0800</pubDate>
+      
+      <guid>https://gg-scm.io/cmd/github-login/</guid>
+      <description>&lt;p&gt;log into GitHub&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>gg addremove</title>
+      <link>https://gg-scm.io/cmd/addremove/</link>
+      <pubDate>Sat, 02 Jan 2021 13:37:22 -0800</pubDate>
+      
+      <guid>https://gg-scm.io/cmd/addremove/</guid>
+      <description>&lt;p&gt;add all new files, delete all missing files&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>gg identify</title>
       <link>https://gg-scm.io/cmd/identify/</link>
       <pubDate>Wed, 13 Feb 2019 09:01:29 -0800</pubDate>
