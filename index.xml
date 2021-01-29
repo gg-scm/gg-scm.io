@@ -69,6 +69,42 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;</description>
     </item>
     
     <item>
+      <title>gg-scm.io/packfile-viewer</title>
+      <link>https://gg-scm.io/packfile-viewer/</link>
+      <pubDate>Wed, 27 Jan 2021 19:56:00 -0800</pubDate>
+      
+      <guid>https://gg-scm.io/packfile-viewer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/pkg/git/githash</title>
+      <link>https://gg-scm.io/pkg/git/githash/</link>
+      <pubDate>Wed, 27 Jan 2021 19:56:00 -0800</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/git/githash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/pkg/git/object</title>
+      <link>https://gg-scm.io/pkg/git/object/</link>
+      <pubDate>Wed, 27 Jan 2021 19:56:00 -0800</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/git/object/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gg-scm.io/pkg/git/packfile/client</title>
+      <link>https://gg-scm.io/pkg/git/packfile/client/</link>
+      <pubDate>Wed, 27 Jan 2021 19:56:00 -0800</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/git/packfile/client/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>gg github-login</title>
       <link>https://gg-scm.io/cmd/github-login/</link>
       <pubDate>Sat, 02 Jan 2021 13:42:37 -0800</pubDate>
@@ -309,15 +345,6 @@ Gerrit as easy as other Git workflows.&lt;/p&gt;</description>
       
       <guid>https://gg-scm.io/cmd/upstream/</guid>
       <description>&lt;p&gt;query or set upstream branch&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>gg-scm.io/pkg/git</title>
-      <link>https://gg-scm.io/pkg/git/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://gg-scm.io/pkg/git/</guid>
-      <description></description>
     </item>
     
     <item>

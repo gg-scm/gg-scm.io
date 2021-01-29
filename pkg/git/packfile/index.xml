@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gg-scm.io/pkg/git/packfile on gg</title>
+    <link>https://gg-scm.io/pkg/git/packfile/</link>
+    <description>Recent content in gg-scm.io/pkg/git/packfile on gg</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2018–2020 The gg Authors</copyright>
+    <lastBuildDate>Wed, 27 Jan 2021 19:56:00 -0800</lastBuildDate>
+    
+	<atom:link href="https://gg-scm.io/pkg/git/packfile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gg-scm.io/pkg/git/packfile/client</title>
+      <link>https://gg-scm.io/pkg/git/packfile/client/</link>
+      <pubDate>Wed, 27 Jan 2021 19:56:00 -0800</pubDate>
+      
+      <guid>https://gg-scm.io/pkg/git/packfile/client/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

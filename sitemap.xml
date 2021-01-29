@@ -23,6 +23,31 @@
   </url>
   
   <url>
+    <loc>https://gg-scm.io/packfile-viewer/</loc>
+    <lastmod>2021-01-27T19:56:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/git/githash/</loc>
+    <lastmod>2021-01-27T19:56:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/git/object/</loc>
+    <lastmod>2021-01-27T19:56:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/git/packfile/</loc>
+    <lastmod>2021-01-27T19:56:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gg-scm.io/pkg/git/packfile/client/</loc>
+    <lastmod>2021-01-27T19:56:00-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gg-scm.io/cmd/github-login/</loc>
     <lastmod>2021-01-02T13:42:37-08:00</lastmod>
   </url>
@@ -188,6 +213,7 @@
   
   <url>
     <loc>https://gg-scm.io/pkg/git/</loc>
+    <lastmod>2021-01-27T19:56:00-08:00</lastmod>
   </url>
   
   <url>
