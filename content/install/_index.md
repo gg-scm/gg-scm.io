@@ -17,8 +17,13 @@ and macOS.
 
 ### Linux
 
-Binary packages are available for Debian-based systems, including Ubuntu.
-To use the APT repository, run:
+Binary packages are available for all Linux systems via [Nix][]:
+
+```shell
+nix-env -iA nixpkgs.gg-scm
+```
+
+For Debian-based systems, including Ubuntu, you can use the APT repository:
 
 ```shell
 # Import the gg public key
@@ -36,6 +41,8 @@ For other distributions, download the Linux binary in the
 {{< latestrelease >}}latest GitHub release{{</ latestrelease >}} and place it
 in your `PATH`.
 
+[Nix]: https://nixos.org/
+
 ### Windows
 
 Download and run the .msi installer file from the {{< latestrelease >}}latest
@@ -48,6 +55,12 @@ gg can be installed from [Homebrew][]:
 
 ```shell
 brew install gg-scm/gg/gg
+```
+
+or [Nix][]:
+
+```shell
+nix-env -iA nixpkgs.gg-scm
 ```
 
 or a binary can be downloaded from the {{< latestrelease >}}latest GitHub
