@@ -76,8 +76,12 @@ and macOS.</p>
 
 <h3 id="linux">Linux</h3>
 
-<p>Binary packages are available for Debian-based systems, including Ubuntu.
-To use the APT repository, run:</p>
+<p>Binary packages are available for all Linux systems via <a href="https://nixos.org/">Nix</a>:</p>
+
+<pre><code class="language-shell">nix-env -iA nixpkgs.gg-scm
+</code></pre>
+
+<p>For Debian-based systems, including Ubuntu, you can use the APT repository:</p>
 
 <pre><code class="language-shell"># Import the gg public key
 curl -fsSL https://gg-scm.io/apt-key.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/gg.gpg add -
@@ -105,6 +109,11 @@ soon.</p>
 <p>gg can be installed from <a href="https://brew.sh/">Homebrew</a>:</p>
 
 <pre><code class="language-shell">brew install gg-scm/gg/gg
+</code></pre>
+
+<p>or <a href="https://nixos.org/">Nix</a>:</p>
+
+<pre><code class="language-shell">nix-env -iA nixpkgs.gg-scm
 </code></pre>
 
 <p>or a binary can be downloaded from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.1.0" class="downloadlink">latest GitHub
