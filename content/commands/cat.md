@@ -1,7 +1,8 @@
 {
     "cmd_aliases": [],
+    "cmd_class": "basic",
     "date": "2018-07-10 22:01:45-07:00",
-    "lastmod": "2018-07-10 22:01:45-07:00",
+    "lastmod": "2022-02-18 13:22:50-08:00",
     "title": "gg cat",
     "usage": "gg cat [-r REV] FILE [...]"
 }
