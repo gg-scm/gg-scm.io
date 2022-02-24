@@ -4,7 +4,7 @@
     ],
     "cmd_class": "basic",
     "date": "2018-07-16 08:42:42-07:00",
-    "lastmod": "2019-07-24 10:01:02-07:00",
+    "lastmod": "2022-02-24 14:33:06-08:00",
     "title": "gg requestpull",
     "usage": "gg requestpull [-n] [-e=0] [--title=MSG [--body=MSG]] [--draft] [-R user1[,user2]] [BRANCH]"
 }
@@ -24,15 +24,10 @@ of the commits it knows about. The first line will be the pull request
 title, and any subsequent lines will be used as the body. You can exit
 your editor without modifications to accept the default summary.
 
-For non-dry runs, you must create a [personal access token][] at
-https://github.com/settings/tokens/new and save it to
-`$XDG_CONFIG_HOME/gg/github_token` (or in any other directory
-in `$XDG_CONFIG_DIRS`). By default, this would be
-`~/.config/gg/github_token`. gg needs at least `public_repo` scope
-to be able to create pull requests, but you can grant `repo` scope to
-create pull requests in any repositories you have access to.
-
-[personal access token]: https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
+The first time you run requestpull, it will ask you to authorize access to
+GitHub. A token will be saved to `$XDG_CONFIG_HOME/gg/github_token`
+(usually `~/.config/gg/github_token`). gg never sees your password,
+and you can revoke access at any time by visiting your GitHub settings.
 
 ## Options
 

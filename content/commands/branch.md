@@ -2,7 +2,7 @@
     "cmd_aliases": [],
     "cmd_class": "basic",
     "date": "2018-07-06 22:13:11-07:00",
-    "lastmod": "2021-01-02 13:37:22-08:00",
+    "lastmod": "2022-02-24 14:33:06-08:00",
     "title": "gg branch",
     "usage": "gg branch [-d] [-f] [-r REV] [NAME [...]]"
 }
@@ -32,6 +32,9 @@ any new branch will use the named branch's upstream.
 	<dd>force</dd>
 	<dt>-r rev</dt>
 	<dd>revision to place branches on</dd>
+	<dt>-p regexp</dt>
+	<dt>-pattern regexp</dt>
+	<dd>regexp of branches to list</dd>
 	<dt>-sort order</dt>
 	<dd>sort order when listing: &#39;name&#39; or &#39;date&#39;. May be prefixed by &#39;-&#39; for descending.</dd>
 </dl>

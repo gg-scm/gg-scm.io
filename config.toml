@@ -2,7 +2,7 @@ baseURL = "https://gg-scm.io/"
 languageCode = "en-us"
 title = "gg"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-copyright = "Copyright © 2018–2020 The gg Authors"
+copyright = "Copyright © 2018–2022 The gg Authors"
 
 [permalinks]
 commands = "/cmd/:filename/"
@@ -52,5 +52,5 @@ weight = 6
 
 [params]
 licenseURL = "https://github.com/gg-scm/gg-scm.io/blob/main/LICENSE"
-latestRelease = "1.1.0"
-releaseDate = "2020-12-13"
+latestRelease = "1.2.0"
+releaseDate = "2022-02-24"

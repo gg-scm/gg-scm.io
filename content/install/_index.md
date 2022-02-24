@@ -27,11 +27,11 @@ For Debian-based systems, including Ubuntu, you can use the APT repository:
 
 ```shell
 # Import the gg public key
-curl -fsSL https://gg-scm.io/apt-key.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/gg.gpg add -
+curl -fsSL https://gg-scm.io/apt-key.gpg | sudo tee /usr/share/keyrings/gg.asc > /dev/null
 
 # Add the gg APT repository to the list of sources
-echo "deb [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main" | sudo tee /etc/apt/sources.list.d/gg.list
-echo "deb-src [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main" | sudo tee -a /etc/apt/sources.list.d/gg.list
+echo "deb [signed-by=/usr/share/keyrings/gg.asc] https://apt.gg-scm.io gg main" | sudo tee /etc/apt/sources.list.d/gg.list
+echo "deb-src [signed-by=/usr/share/keyrings/gg.asc] https://apt.gg-scm.io gg main" | sudo tee -a /etc/apt/sources.list.d/gg.list
 
 # Update the package list and install gg
 sudo apt-get update && sudo apt-get install gg

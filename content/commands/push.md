@@ -2,7 +2,7 @@
     "cmd_aliases": [],
     "cmd_class": "basic",
     "date": "2018-07-06 22:13:11-07:00",
-    "lastmod": "2020-06-21 12:23:51-07:00",
+    "lastmod": "2022-02-24 14:33:06-08:00",
     "title": "gg push",
     "usage": "gg push [-f] [-r REF [...]] [--new-branch] [DST]"
 }
@@ -35,6 +35,8 @@ branch), then you can pass `--new-branch` to override this check.
 	<dt>-f</dt>
 	<dt>-force</dt>
 	<dd>allow overwriting ref if it is not an ancestor, as long as it matches the remote-tracking branch</dd>
+	<dt>-hooks</dt>
+	<dd>whether to run Git hooks</dd>
 	<dt>-r ref</dt>
 	<dd>source refs</dd>
 </dl>

@@ -4,7 +4,7 @@
     ],
     "cmd_class": "basic",
     "date": "2018-07-06 22:13:11-07:00",
-    "lastmod": "2018-07-07 13:44:58-07:00",
+    "lastmod": "2022-02-24 14:33:06-08:00",
     "title": "gg commit",
     "usage": "gg commit [--amend] [-m MSG] [FILE [...]]"
 }
@@ -26,6 +26,8 @@ this command will only change the index if the commit succeeds.
 <dl class="flag_list">
 	<dt>-amend</dt>
 	<dd>amend the parent of the working directory</dd>
+	<dt>-hooks</dt>
+	<dd>whether to run Git hooks</dd>
 	<dt>-m message</dt>
 	<dd>use text as commit message</dd>
 </dl>
