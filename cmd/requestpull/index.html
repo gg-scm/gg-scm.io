@@ -75,13 +75,10 @@ of the commits it knows about. The first line will be the pull request
 title, and any subsequent lines will be used as the body. You can exit
 your editor without modifications to accept the default summary.</p>
 
-<p>For non-dry runs, you must create a <a href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/">personal access token</a> at
-<a href="https://github.com/settings/tokens/new">https://github.com/settings/tokens/new</a> and save it to
-<code>$XDG_CONFIG_HOME/gg/github_token</code> (or in any other directory
-in <code>$XDG_CONFIG_DIRS</code>). By default, this would be
-<code>~/.config/gg/github_token</code>. gg needs at least <code>public_repo</code> scope
-to be able to create pull requests, but you can grant <code>repo</code> scope to
-create pull requests in any repositories you have access to.</p>
+<p>The first time you run requestpull, it will ask you to authorize access to
+GitHub. A token will be saved to <code>$XDG_CONFIG_HOME/gg/github_token</code>
+(usually <code>~/.config/gg/github_token</code>). gg never sees your password,
+and you can revoke access at any time by visiting your GitHub settings.</p>
 
 <h2 id="options">Options</h2>
 
@@ -116,7 +113,7 @@ create pull requests in any repositories you have access to.</p>
   </div>
   <footer id="pagefooter">
     <div id="pagefooter_content">
-      <p>Copyright © 2018–2020 The gg Authors</p>
+      <p>Copyright © 2018–2022 The gg Authors</p>
       <p>
         Something wrong?
         <a href="https://github.com/gg-scm/gg-scm.io/edit/main/content/commands/requestpull.md" class="editpagelink">Improve this page</a>

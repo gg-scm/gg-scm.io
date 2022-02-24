@@ -70,7 +70,9 @@ saved under <code>refs/ggpull/</code>.</p>
 
 <p>Local branches with the same name as a remote branch will be
 fast-forwarded if possible. The currently checked out branch will not be
-fast-forwarded unless <code>-u</code> is passed.</p>
+fast-forwarded unless <code>-u</code> is passed. If a branch is removed from
+all known remotes and the local branch points to the last-known commit for
+that branch, then it will be moved under <code>refs/gg-old/</code>.</p>
 
 <p>If no revisions are specified, then all the remote&rsquo;s branches and tags
 will be fetched. If the source is a named remote, then its remote
@@ -81,6 +83,8 @@ tracking branches will be pruned.</p>
 <dl class="flag_list">
     <dt>-r ref</dt>
     <dd>refs to pull</dd>
+    <dt>-force-tags</dt>
+    <dd>update any tags pulled</dd>
     <dt>-u</dt>
     <dd>update to new head if new descendants were pulled</dd>
 </dl>
@@ -90,7 +94,7 @@ tracking branches will be pruned.</p>
   </div>
   <footer id="pagefooter">
     <div id="pagefooter_content">
-      <p>Copyright © 2018–2020 The gg Authors</p>
+      <p>Copyright © 2018–2022 The gg Authors</p>
       <p>
         Something wrong?
         <a href="https://github.com/gg-scm/gg-scm.io/edit/main/content/commands/pull.md" class="editpagelink">Improve this page</a>

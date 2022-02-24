@@ -70,8 +70,8 @@ are not supported.</p>
 
 <h2 id="binaries">Binaries</h2>
 
-<p>The latest release is <a href="https://github.com/gg-scm/gg/releases/tag/v1.1.0" class="downloadlink">1.1.0</a>, which was released on
-<time datetime="2020-12-13">Dec 13, 2020</time>. Pre-built binaries are available for Linux, Windows,
+<p>The latest release is <a href="https://github.com/gg-scm/gg/releases/tag/v1.2.0" class="downloadlink">1.2.0</a>, which was released on
+<time datetime="2022-02-24">Feb 24, 2022</time>. Pre-built binaries are available for Linux, Windows,
 and macOS.</p>
 
 <h3 id="linux">Linux</h3>
@@ -84,23 +84,23 @@ and macOS.</p>
 <p>For Debian-based systems, including Ubuntu, you can use the APT repository:</p>
 
 <pre><code class="language-shell"># Import the gg public key
-curl -fsSL https://gg-scm.io/apt-key.gpg | sudo apt-key --keyring /etc/apt/trusted.gpg.d/gg.gpg add -
+curl -fsSL https://gg-scm.io/apt-key.gpg | sudo tee /usr/share/keyrings/gg.asc &gt; /dev/null
 
 # Add the gg APT repository to the list of sources
-echo &quot;deb [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee /etc/apt/sources.list.d/gg.list
-echo &quot;deb-src [signed-by=/etc/apt/trusted.gpg.d/gg.gpg] https://apt.gg-scm.io gg main&quot; | sudo tee -a /etc/apt/sources.list.d/gg.list
+echo &quot;deb [signed-by=/usr/share/keyrings/gg.asc] https://apt.gg-scm.io gg main&quot; | sudo tee /etc/apt/sources.list.d/gg.list
+echo &quot;deb-src [signed-by=/usr/share/keyrings/gg.asc] https://apt.gg-scm.io gg main&quot; | sudo tee -a /etc/apt/sources.list.d/gg.list
 
 # Update the package list and install gg
 sudo apt-get update &amp;&amp; sudo apt-get install gg
 </code></pre>
 
 <p>For other distributions, download the Linux binary in the
-<a href="https://github.com/gg-scm/gg/releases/tag/v1.1.0" class="downloadlink">latest GitHub release</a> and place it
+<a href="https://github.com/gg-scm/gg/releases/tag/v1.2.0" class="downloadlink">latest GitHub release</a> and place it
 in your <code>PATH</code>.</p>
 
 <h3 id="windows">Windows</h3>
 
-<p>Download and run the .msi installer file from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.1.0" class="downloadlink">latest
+<p>Download and run the .msi installer file from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.2.0" class="downloadlink">latest
 GitHub release</a>. Package manager integration is coming
 soon.</p>
 
@@ -116,7 +116,7 @@ soon.</p>
 <pre><code class="language-shell">nix-env -iA nixpkgs.gg-scm
 </code></pre>
 
-<p>or a binary can be downloaded from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.1.0" class="downloadlink">latest GitHub
+<p>or a binary can be downloaded from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.2.0" class="downloadlink">latest GitHub
 release</a> and placed in your <code>PATH</code>.</p>
 
 <h2 id="source">Source</h2>
@@ -136,7 +136,7 @@ basic commands.</p>
   </div>
   <footer id="pagefooter">
     <div id="pagefooter_content">
-      <p>Copyright © 2018–2020 The gg Authors</p>
+      <p>Copyright © 2018–2022 The gg Authors</p>
       <p>
         Something wrong?
         <a href="https://github.com/gg-scm/gg-scm.io/edit/main/content/install/_index.md" class="editpagelink">Improve this page</a>
