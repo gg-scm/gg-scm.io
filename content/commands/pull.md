@@ -2,7 +2,7 @@
     "cmd_aliases": [],
     "cmd_class": "basic",
     "date": "2018-07-06 22:13:11-07:00",
-    "lastmod": "2022-02-24 14:33:06-08:00",
+    "lastmod": "2022-03-03 15:18:49-08:00",
     "title": "gg pull",
     "usage": "gg pull [-u] [-r REV [...]] [SOURCE]"
 }
@@ -30,6 +30,9 @@ tracking branches will be pruned.
 <dl class="flag_list">
 	<dt>-r ref</dt>
 	<dd>refs to pull</dd>
+	<dt>-p regexp</dt>
+	<dt>-pattern regexp</dt>
+	<dd>regexp of branch or tag names to pull (can be specified multiple times)</dd>
 	<dt>-force-tags</dt>
 	<dd>update any tags pulled</dd>
 	<dt>-u</dt>
