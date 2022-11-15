@@ -81,22 +81,9 @@ and macOS.</p>
 <pre><code class="language-shell">nix-env -iA nixpkgs.gg-scm
 </code></pre>
 
-<p>For Debian-based systems, including Ubuntu, you can use the APT repository:</p>
-
-<pre><code class="language-shell"># Import the gg public key
-curl -fsSL https://gg-scm.io/apt-key.gpg | sudo tee /usr/share/keyrings/gg.asc &gt; /dev/null
-
-# Add the gg APT repository to the list of sources
-echo &quot;deb [signed-by=/usr/share/keyrings/gg.asc] https://apt.gg-scm.io gg main&quot; | sudo tee /etc/apt/sources.list.d/gg.list
-echo &quot;deb-src [signed-by=/usr/share/keyrings/gg.asc] https://apt.gg-scm.io gg main&quot; | sudo tee -a /etc/apt/sources.list.d/gg.list
-
-# Update the package list and install gg
-sudo apt-get update &amp;&amp; sudo apt-get install gg
-</code></pre>
-
-<p>For other distributions, download the Linux binary in the
-<a href="https://github.com/gg-scm/gg/releases/tag/v1.3.0" class="downloadlink">latest GitHub release</a> and place it
-in your <code>PATH</code>.</p>
+<p>or a binary can be downloaded
+from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.3.0" class="downloadlink">latest GitHub release</a>
+and place it in your <code>PATH</code>.</p>
 
 <h3 id="windows">Windows</h3>
 
@@ -116,8 +103,9 @@ soon.</p>
 <pre><code class="language-shell">nix-env -iA nixpkgs.gg-scm
 </code></pre>
 
-<p>or a binary can be downloaded from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.3.0" class="downloadlink">latest GitHub
-release</a> and placed in your <code>PATH</code>.</p>
+<p>or a binary can be downloaded
+from the <a href="https://github.com/gg-scm/gg/releases/tag/v1.3.0" class="downloadlink">latest GitHub release</a>
+and place it in your <code>PATH</code>.</p>
 
 <h2 id="source">Source</h2>
 
