@@ -1,6 +1,7 @@
 ---
 title: Installation
 date: 2020-09-09T11:45:00-07:00
+lastmod: 2022-11-14T21:16:00-08:00
 ---
 
 ## Prerequisites
@@ -23,23 +24,9 @@ Binary packages are available for all Linux systems via [Nix][]:
 nix-env -iA nixpkgs.gg-scm
 ```
 
-For Debian-based systems, including Ubuntu, you can use the APT repository:
-
-```shell
-# Import the gg public key
-curl -fsSL https://gg-scm.io/apt-key.gpg | sudo tee /usr/share/keyrings/gg.asc > /dev/null
-
-# Add the gg APT repository to the list of sources
-echo "deb [signed-by=/usr/share/keyrings/gg.asc] https://apt.gg-scm.io gg main" | sudo tee /etc/apt/sources.list.d/gg.list
-echo "deb-src [signed-by=/usr/share/keyrings/gg.asc] https://apt.gg-scm.io gg main" | sudo tee -a /etc/apt/sources.list.d/gg.list
-
-# Update the package list and install gg
-sudo apt-get update && sudo apt-get install gg
-```
-
-For other distributions, download the Linux binary in the
-{{< latestrelease >}}latest GitHub release{{</ latestrelease >}} and place it
-in your `PATH`.
+or a binary can be downloaded
+from the {{< latestrelease >}}latest GitHub release{{</ latestrelease >}}
+and place it in your `PATH`.
 
 [Nix]: https://nixos.org/
 
@@ -63,8 +50,9 @@ or [Nix][]:
 nix-env -iA nixpkgs.gg-scm
 ```
 
-or a binary can be downloaded from the {{< latestrelease >}}latest GitHub
-release{{</ latestrelease >}} and placed in your `PATH`.
+or a binary can be downloaded
+from the {{< latestrelease >}}latest GitHub release{{</ latestrelease >}}
+and place it in your `PATH`.
 
 [Homebrew]: https://brew.sh/
 
