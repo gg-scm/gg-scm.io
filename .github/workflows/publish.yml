@@ -20,7 +20,7 @@ on:
 jobs:
   hugo:
     name: Hugo
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     steps:
     - name: Check out code
       uses: actions/checkout@v1
