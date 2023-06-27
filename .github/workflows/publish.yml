@@ -29,7 +29,7 @@ jobs:
         curl -fsSL https://github.com/gohugoio/hugo/releases/download/v0.53/hugo_0.53_Linux-64bit.tar.gz | tar zxf - -C "$HOME" hugo
     - name: Run Hugo
       run: |
-        HUGO_GOOGLEANALYTICS=UA-2285538-10 "$HOME/hugo"
+        HUGO_GOOGLEANALYTICS=G-6891TF9CDZ "$HOME/hugo"
     - name: Stage Hugo output
       run: |
         cd public && \

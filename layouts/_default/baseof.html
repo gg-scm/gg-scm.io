@@ -9,7 +9,22 @@
   <link rel="icon" type="image/png" href="{{ "/favicon128.png" | relURL }}" sizes="128x128">
   <link rel="icon" type="image/png" href="{{ "/favicon512.png" | relURL }}" sizes="512x512">
   <link rel="stylesheet" type="text/css" href="{{ "/style.css" | relURL }}">
-  {{ template "_internal/google_analytics_async.html" . }}
+  {{- with .Site.GoogleAnalytics }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}" type="text/javascript"></script>
+  <script type="text/javascript">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    const GA_MEASUREMENT_ID = '{{ . }}';
+    gtag('config', GA_MEASUREMENT_ID);
+  </script>
+  {{- else }}
+  <script type="text/javascript">
+    const GA_MEASUREMENT_ID = '';
+    function gtag(){}
+  </script>
+  {{- end }}
 
   <meta property="og:url" content="{{.Permalink}}">
   <meta name="twitter:card" content="summary_large_image">

@@ -13,11 +13,13 @@
 // limitations under the License.
 
 function outbound(query, label) {
-  if (!window.ga) return;
   var q = document.querySelectorAll(query);
   for (var i = 0; i < q.length; i++) {
     q[i].addEventListener('click', function() {
-      ga('send', 'event', 'Outbound Link', 'click', label, 1, {transport: 'beacon'});
+      gtag('event', 'click', {
+        event_category: 'Outbound Link',
+        event_label: label,
+      });
     });
   }
 }
