@@ -27,7 +27,6 @@ function outbound(query, label) {
 document.addEventListener('DOMContentLoaded', function() {
   outbound('.downloadlink', 'Download');
   outbound('.githublink', 'GitHub');
-  outbound('.discordlink', 'Discord');
   outbound('.editpagelink', 'Edit Page');
 
   var q = document.querySelectorAll('.link_button');
